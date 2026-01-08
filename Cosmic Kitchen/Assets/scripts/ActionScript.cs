@@ -3,7 +3,7 @@ using UnityEngine;
 public class ActionScript : MonoBehaviour
 {
     BoxCollider2D Box;
-    [SerializeField] GameObject InteractionSymbol;
+    [SerializeField] GameObject InteractionSymbol; //share the same object between all the interactable objects
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
