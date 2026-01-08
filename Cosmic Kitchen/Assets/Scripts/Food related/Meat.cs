@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    internal class food
+    internal class Meat : Food
     {
+        
+
+        public Meat(string name, bool meal) : base(name, meal)
+        {
+
+        }
     }
 }
