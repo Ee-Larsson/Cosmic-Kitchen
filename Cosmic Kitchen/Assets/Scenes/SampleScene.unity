@@ -446,6 +446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Movement
   speed: 2
+  player: {fileID: 1298291646}
 --- !u!212 &1298291650
 SpriteRenderer:
   m_ObjectHideFlags: 0
