@@ -2,19 +2,7 @@ using UnityEngine;
 
 public class ActionScript : MonoBehaviour
 {
-    BoxCollider2D Box;
-    [SerializeField] GameObject InteractionSymbol; //share the same object between all the interactable objects
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        Box = GetComponent<BoxCollider2D>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] GameObject InteractionSymbol; //share the same object between all the interactable 
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
