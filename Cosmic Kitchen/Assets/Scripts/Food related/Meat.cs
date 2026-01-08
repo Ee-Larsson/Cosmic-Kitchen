@@ -12,7 +12,8 @@ namespace Assets.Scripts
 
         public Meat(string name, bool meal) : base(name, meal)
         {
-
+            this.name = name;
+            this.meal = meal;
         }
     }
 }

@@ -8,8 +8,8 @@ namespace Assets.Scripts
 {
     internal class Food
     {
-        string name;
-        bool meal;
+        protected string name;
+        protected bool meal;
 
         public Food(string name, bool meal)
         {
