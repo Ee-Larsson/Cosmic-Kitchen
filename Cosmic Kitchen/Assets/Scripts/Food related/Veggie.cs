@@ -10,7 +10,8 @@ namespace Assets.Scripts.Food_related
     {
         public Veggie(string name, bool meal) : base(name, meal)
         {
-
+            this.name = name;
+            this.meal = meal;
         }
     }
 }

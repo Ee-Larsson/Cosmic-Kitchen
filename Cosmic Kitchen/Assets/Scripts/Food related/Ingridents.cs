@@ -16,5 +16,8 @@ public class Ingridents
 
 
     List<Fruit> fruits = new List<Fruit>(); //List of different fruits
+    fruits.Add("Blapple", false);
 
+    List<Misc> miscs = new List<Misc>(); //List of different miscallenous food items such as bread or eggs
+    
 }

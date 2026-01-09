@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    internal class Food
+    public class Food
     {
         protected string name;
         protected bool meal;

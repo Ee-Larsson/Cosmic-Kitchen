@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts.Food_related
 {
-    internal class Fruit : Food
+    internal class Misc : Food
     {
-        public Fruit(string name, bool meal) : base(name, meal)
+
+        public Misc(string name, bool meal) : base(name, meal)
         {
             this.name = name;
             this.meal = meal;
