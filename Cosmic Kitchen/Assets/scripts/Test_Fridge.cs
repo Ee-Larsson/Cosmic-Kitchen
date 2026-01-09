@@ -4,12 +4,12 @@ using UnityEngine;
 public class Test_Fridge : MonoBehaviour
 {
     [SerializeField] GameObject player;
-    [SerializeField] Food food;
+    Food food;
     bool colliding;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        food = new Food("food1", true);
     }
 
     // Update is called once per frame

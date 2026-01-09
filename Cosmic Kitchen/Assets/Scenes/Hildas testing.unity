@@ -129,7 +129,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
       propertyPath: m_Name
-      value: Interactable (1)
+      value: Npc
       objectReference: {fileID: 0}
     - target: {fileID: 8073540816648418463, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -174,7 +174,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1061897875}
   m_SourcePrefab: {fileID: 100100000, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
 --- !u!1 &880349299
 GameObject:
@@ -313,6 +316,24 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1 &1061897874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
+  m_PrefabInstance: {fileID: 575303213}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1061897875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061897874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19d972c8dc05b3c46a95de49c71a51fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NPC_interaction
+  player: {fileID: 1421248562}
 --- !u!1 &1308381147
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,7 +543,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1421248566
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -592,7 +613,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
       propertyPath: m_Name
-      value: Interactable
+      value: Fridge
+      objectReference: {fileID: 0}
+    - target: {fileID: 8073540816648418463, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.89
       objectReference: {fileID: 0}
     - target: {fileID: 8073540816648418463, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -640,14 +665,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4926945451096602427}
+      addedObject: {fileID: 4926945451096602432}
   m_SourcePrefab: {fileID: 100100000, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
 --- !u!1 &4926945451096602426 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
   m_PrefabInstance: {fileID: 4926945451096602425}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4926945451096602427
+--- !u!114 &4926945451096602432
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -656,9 +681,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4926945451096602426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19d972c8dc05b3c46a95de49c71a51fc, type: 3}
+  m_Script: {fileID: 11500000, guid: e67f1bdbf5100264dbce904821d856d9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NPC_interaction
+  m_EditorClassIdentifier: Assembly-CSharp::Test_Fridge
+  player: {fileID: 1421248562}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

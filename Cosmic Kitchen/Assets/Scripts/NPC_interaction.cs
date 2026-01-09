@@ -1,20 +1,29 @@
+using Assets.Scripts;
 using System;
 using System.Collections.Generic;
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class NPC_interaction : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    List<string> dialouge = new List<string>();
+    List<string> RequestDialouge = new List<string>();
+    List<Food> RequestList;
+    List<string> FoodDialouge = new List<string>();
+    Food request;
     Component actionScript;
     bool colliding = false;
+    [SerializeField] GameObject player;
+    bool HasGivenRequest = false;
+    bool HasFood = false;
 
     void Start()
     {
-        dialouge.Add("Test string one");
-        dialouge.Add("test string two");
-        dialouge.Add("Test string three");
-        dialouge.Add("Test string four");
+        
+        RequestDialouge.Add("Test string one"); Food food1 = new Food("food1", true); RequestList.Add(food1); RequestList.Add(food1); RequestList.Add(food1); RequestList.Add(food1);
+        RequestDialouge.Add("test string two"); 
+        RequestDialouge.Add("Test string three");
+        RequestDialouge.Add("Test string four");
         //get list of foods
     }
 
@@ -22,11 +31,29 @@ public class NPC_interaction : MonoBehaviour
     void Update()
     {
         colliding = gameObject.GetComponent<ActionScript>().ReturnIfPlayerIsColiding();
-        if (colliding == true && Input.GetKeyDown(KeyCode.E))
+        if (colliding == true && Input.GetKeyUp(KeyCode.E) && HasGivenRequest == false) //give request
         {
             System.Random rand = new System.Random();
-            int x = rand.Next(0, dialouge.Count);
-            Debug.Log(dialouge[x]);
+            int x = rand.Next(0, RequestDialouge.Count);
+            request = RequestList[x];
+            Debug.Log(RequestDialouge[x]);
+
+            HasGivenRequest = true;
         }
+        if (colliding == true && Input.GetKeyUp(KeyCode.E) && HasGivenRequest == true && HasFood == false) //player gives food
+        {
+            if (request == player.GetComponent<Holding>().ReturnHolding())
+            {
+                player.GetComponent<Holding>().PlaceFood();
+                HasFood = true;
+                Debug.Log("yay thank you");
+            }
+            else
+            {
+                Debug.Log("grrrrr wrong food fuckass >:(");
+            }
+        }
+
+
     }
 }
