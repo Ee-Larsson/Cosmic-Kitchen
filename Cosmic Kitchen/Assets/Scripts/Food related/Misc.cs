@@ -8,11 +8,12 @@ namespace Assets.Scripts.Food_related
 {
     internal class Misc : Food
     {
-
-        public Misc(string name, bool meal) : base(name, meal)
+        bool vegan;
+        public Misc(string name, bool meal, bool vegan) : base(name, meal)
         {
             this.name = name;
             this.meal = meal;
+            this.vegan = vegan;
         }
     }
 }

@@ -8,12 +8,13 @@ namespace Assets.Scripts
 {
     internal class Meat : Food
     {
-        
+        string animal;
 
-        public Meat(string name, bool meal) : base(name, meal)
+        public Meat(string name, bool meal, string animal) : base(name, meal)
         {
             this.name = name;
             this.meal = meal;
+            this.animal = animal;
         }
     }
 }

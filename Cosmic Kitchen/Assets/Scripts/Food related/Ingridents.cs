@@ -9,15 +9,47 @@ using System.Threading.Tasks;
 
 public class Ingridents
 {
-    List<Meat> meats = new List<Meat>(); //List of different meat
+    //List of different meat
+    List<Meat> meats = new List<Meat>(); 
+
+
+
+    //List of different veggies
+    List<Veggie> veggies = new List<Veggie>(); 
+
+
+    //List of different fruits
+    List<Fruit> fruits = new List<Fruit>(); 
+
+    Fruit blapple = new Fruit("Blapple", false);
+
     
 
-    List<Veggie> veggies = new List<Veggie>(); //List of different veggies
 
+    //List of different miscallenous food items such as bread or eggs
+    List<Misc> miscs = new List<Misc>();
+    Misc bluegette = new Misc("Bluegette", false, false);
 
-    List<Fruit> fruits = new List<Fruit>(); //List of different fruits
-    fruits.Add("Blapple", false);
-
-    List<Misc> miscs = new List<Misc>(); //List of different miscallenous food items such as bread or eggs
     
+
+        public Ingridents()
+    {
+        //Adds differnt meats to list
+
+
+
+        //Adds different veggies to list
+
+
+
+        //Adds different fruits to list
+        fruits.Add(blapple);
+
+
+        //Adds different miscallenous food items to list
+        miscs.Add(bluegette);
+
+        
+    }
+
 }
