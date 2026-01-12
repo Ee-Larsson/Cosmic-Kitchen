@@ -10,32 +10,31 @@ using System.Threading.Tasks;
 public class Ingridents
 {
     //List of different meat
-    List<Meat> meats = new List<Meat>(); 
-
+    protected List<Food> meats = new List<Food>();
+    Food cow = new Meat("steak", true, "cow");
 
 
     //List of different veggies
-    List<Veggie> veggies = new List<Veggie>(); 
+    protected List<Food> veggies = new List<Food>();
+
 
 
     //List of different fruits
-    List<Fruit> fruits = new List<Fruit>(); 
+    protected List<Food> fruits = new List<Food>(); 
+    Food blapple = new Fruit("Blapple", false);
 
-    Fruit blapple = new Fruit("Blapple", false);
-
-    
 
 
     //List of different miscallenous food items such as bread or eggs
-    List<Misc> miscs = new List<Misc>();
-    Misc bluegette = new Misc("Bluegette", false, false);
-
+    protected List<Food> miscs = new List<Food>();
+    Food bluegette = new Misc("Bluegette", false, true);
+    Food egg = new Misc("Egg", false, false);
     
 
         public Ingridents()
     {
         //Adds differnt meats to list
-
+        meats.Add(cow);
 
 
         //Adds different veggies to list
