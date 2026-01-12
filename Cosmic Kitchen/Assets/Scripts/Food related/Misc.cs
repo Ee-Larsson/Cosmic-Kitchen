@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts.Food_related
 {
-    internal class Misc : Food
+    public class Misc : Food
     {
         bool vegan;
         public Misc(string name, bool meal, bool vegan) : base(name, meal)
