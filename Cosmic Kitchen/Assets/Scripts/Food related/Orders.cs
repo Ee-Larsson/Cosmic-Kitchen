@@ -25,14 +25,14 @@ public class Orders : MonoBehaviour
         int randomFruit = rand.Next(1, 21);
 
 
-        int randomMeal = rand.Next(1, 5);
+        int randomMeal = rand.Next(1, 7);
 
 
         int randomMisc = rand.Next(1, 9);
 
         if(randomFruit >= 1)
         {
-            Meals.GetFruit();
+           // Meals.GetFruit();
         }
 
     }

@@ -13,12 +13,12 @@ namespace Assets.Scripts.Food_related
 
         //List of fruits
         List<Food> Fruits = new List<Food>();
-        Food blapple = new Fruit("Blapple", true);
+        Food apple = new Fruit("Blapple", true);
 
 
         //List of misc food items
         List<Food> general = new List<Food>();
-        Food bluegette = new Misc("Bluegette", true, true);
+        Food bagette = new Misc("Bluegette", true, true);
         Food omelette = new Misc("Omelette", true, false);
 
         //List of proper meals
@@ -28,10 +28,10 @@ namespace Assets.Scripts.Food_related
         public Meals()
         {
             //Adds fruits to list
-            fruits.Add(blapple);
+            fruits.Add(apple);
 
             //Adds misc food items to list
-            general.Add(bluegette);
+            general.Add(bagette);
             general.Add(omelette);
 
             //Adds proper meals to list

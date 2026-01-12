@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Assets.Scripts
 {
-    internal class Meat : Food
+    public class Meat : Food
     {
         string animal;
 
