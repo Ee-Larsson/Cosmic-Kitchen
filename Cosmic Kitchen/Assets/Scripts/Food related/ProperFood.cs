@@ -10,8 +10,6 @@ namespace Assets.Scripts.Food_related
     internal class ProperFood : Ingridents
     {
 
-        
-        
         public ProperFood(Fruit fruit, Veggie veggie, Food meat, Misc misc) : base()
         {
             if(fruit == null)
@@ -31,11 +29,6 @@ namespace Assets.Scripts.Food_related
             {
 
             }
-        }
-
-        public void GetFoodItems()
-        {
-            Debug.Print("ProperFood");
         }
 
     }
