@@ -11,7 +11,7 @@ public class Ingridents
 {
     //List of different meat
     protected List<Food> meats = new List<Food>();
-    Food cow = new Meat("steak", true, "cow");
+    Food bleat = new Meat("steak", true, "cow");
 
 
     //List of different veggies
@@ -28,13 +28,15 @@ public class Ingridents
     //List of different miscallenous food items such as bread or eggs
     protected List<Food> miscs = new List<Food>();
     Food bluegette = new Misc("Bluegette", false, true);
-    Food egg = new Misc("Egg", false, false);
-    
+    Food pegg = new Misc("Egg", false, false);
+    Food flour = new Misc("Flour", false, true);
+    Food marstato = new Misc("Potato", false, true);
 
-        public Ingridents()
+
+    public Ingridents()
     {
         //Adds differnt meats to list
-        meats.Add(cow);
+        meats.Add(bleat);
 
 
         //Adds different veggies to list
@@ -47,8 +49,11 @@ public class Ingridents
 
         //Adds different miscallenous food items to list
         miscs.Add(bluegette);
+        miscs.Add(pegg);
+        miscs.Add(flour);
+        miscs.Add(marstato);
 
-        
+
     }
 
 }

@@ -14,7 +14,7 @@ namespace Assets.Scripts.Food_related
 
 
         //List of misc food items
-        List<Food> miscs = new List<Food>();
+        List<Food> general = new List<Food>();
         Food bluegette = new Misc("Bluegette", false, false);
 
 
@@ -31,7 +31,7 @@ namespace Assets.Scripts.Food_related
             miscs.Add(bluegette);
 
             //Adds proper meals to list
-            ProperFood MeatAndPotato = new ProperFood(null, null, meats[0], null);
+            ProperFood MeatAndPotato = new ProperFood(null, null, (Meat)meats[0], (Misc)miscs[3]);
             properMeals.Add(MeatAndPotato);
 
         }
