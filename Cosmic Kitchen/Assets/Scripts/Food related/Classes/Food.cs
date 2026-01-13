@@ -16,5 +16,10 @@ namespace Assets.Scripts
             this.name = name;
             this.meal = meal;
         }
+
+        public string GetName()
+        {
+            return (name);
+        }
     }
 }

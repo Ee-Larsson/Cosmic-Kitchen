@@ -19,6 +19,7 @@ namespace Assets.Scripts.Food_related
         //List of misc food items
         List<Food> general = new List<Food>();
         Food bagette = new Misc("Bluegette", true, true);
+        Food fries = new Misc("Fries", true, true);
         Food omelette = new Misc("Omelette", true, false);
 
         //List of proper meals
@@ -33,10 +34,24 @@ namespace Assets.Scripts.Food_related
             //Adds misc food items to list
             general.Add(bagette);
             general.Add(omelette);
+            general.Add(fries);
 
             //Adds proper meals to list
-            ProperFood MeatAndPotato = new ProperFood(null, null, (Meat)meats[0], (Misc)miscs[3]);
-            properMeals.Add(MeatAndPotato);
+            ProperFood curryRice = new ProperFood("Curry and rice", null, (Veggie)veggies[0], (Meat)meats[0], null);
+            properMeals.Add(curryRice);
+            ProperFood dumplings = new ProperFood("Dumplings", null, null, (Meat)meats[0], (Misc)miscs[2]);
+            properMeals.Add(dumplings);
+            ProperFood eggsAndBacon = new ProperFood("Eggs & Bacon", null, null, (Meat)meats[0], (Misc)miscs[1]);
+            properMeals.Add(eggsAndBacon);
+            ProperFood gnocci = new ProperFood("Gnocci", null, (Veggie)veggies[0], null,(Misc)miscs[2]);
+            properMeals.Add(gnocci);
+            ProperFood hashBrown = new ProperFood("Hash brown", null, (Veggie)veggies[0], null, (Misc)miscs[1]);
+            properMeals.Add(hashBrown);
+            ProperFood pancakes = new ProperFood("Pancakes", (Misc)miscs[1], (Misc)miscs[2], null, null);
+            properMeals.Add(pancakes);
+
+            ProperFood steak = new ProperFood("Steak", null, null, (Meat)meats[0], null);
+            properMeals.Add(steak);
 
         }
 
@@ -48,6 +63,13 @@ namespace Assets.Scripts.Food_related
 
             return (Fruits[x]);
         }
+        public ProperFood GetProperMeals()
+        {
+
+            int x = rand.Next(properMeals.Count);
+
+            return (properMeals[x]);
+        }
 
         public Food GetMisc()
         {
@@ -56,12 +78,6 @@ namespace Assets.Scripts.Food_related
 
             return (general[x]);
         }
-        public ProperFood GetProperMeals()
-        {
-
-            int x = rand.Next(properMeals.Count);
-
-            return (properMeals[x]);
-        }
+        
     }
 }

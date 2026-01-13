@@ -1,11 +1,19 @@
 using UnityEngine;
 using System;
 using Assets.Scripts.Food_related;
+using Assets.Scripts;
 
 public class Orders : MonoBehaviour
 {
     System.Random rand = new System.Random();
 
+    Food fruitOrder = new Fruit(null, true);
+
+    Food miscOrder = new Misc(null, true, true);
+
+    ProperFood mealOrder = new ProperFood(null, null, null, null, null);
+
+    Meals meal = new Meals();
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,6 +25,7 @@ public class Orders : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         
     }
 
@@ -30,9 +39,23 @@ public class Orders : MonoBehaviour
 
         int randomMisc = rand.Next(1, 9);
 
-        if(randomFruit >= 1)
+        if(randomFruit <= 1)
         {
-           // Meals.GetFruit();
+           fruitOrder = meal.GetFruit();
+           Debug.Log(fruitOrder.GetName());
+        }
+
+        if (randomMeal > 1)
+        {
+            mealOrder = meal.GetProperMeals();
+
+            Debug.Log(mealOrder.GetName());
+        }
+
+        if (randomMisc <= 2)
+        {
+            miscOrder = meal.GetMisc();
+            Debug.Log(miscOrder.GetName());
         }
 
     }

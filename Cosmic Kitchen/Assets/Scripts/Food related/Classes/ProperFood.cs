@@ -9,10 +9,15 @@ namespace Assets.Scripts.Food_related
 {
     public class ProperFood : Ingridents
     {
-
-        public ProperFood(Fruit fruit, Veggie veggie, Food meat, Misc misc) : base()
+        string name;
+        public ProperFood(string name, Food ingridient1, Food ingridient2, Food ingridient3, Food ingridient4) : base()
         {
+            this.name = name;
+        }
 
+        public string GetName()
+        {
+            return(name);
         }
 
     }

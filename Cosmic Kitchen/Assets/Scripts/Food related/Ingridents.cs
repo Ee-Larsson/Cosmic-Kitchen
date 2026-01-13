@@ -11,12 +11,12 @@ public class Ingridents
 {
     //List of different meat
     protected List<Food> meats = new List<Food>();
-    Food meat = new Meat("Beak", true, "cow");
+    Food meat = new Meat("Steak", true, "cow");
 
 
     //List of different veggies
     protected List<Food> veggies = new List<Food>();
-
+    Food potato = new Veggie("Marstato", false);
 
 
     //List of different fruits
@@ -30,7 +30,7 @@ public class Ingridents
     Food bagette = new Misc("Bluegette", false, true);
     Food egg = new Misc("Pegg", false, false);
     Food flour = new Misc("Flour", false, true);
-    Food potato= new Misc("Marstato", false, true);
+    
 
 
     public Ingridents()
@@ -40,6 +40,7 @@ public class Ingridents
 
 
         //Adds different veggies to list
+        veggies.Add(potato);
 
 
 
@@ -51,7 +52,6 @@ public class Ingridents
         miscs.Add(bagette);
         miscs.Add(egg);
         miscs.Add(flour);
-        miscs.Add(potato);
 
 
     }
