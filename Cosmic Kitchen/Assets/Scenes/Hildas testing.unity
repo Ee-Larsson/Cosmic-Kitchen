@@ -624,6 +624,7 @@ GameObject:
   - component: {fileID: 1421248567}
   - component: {fileID: 1421248568}
   - component: {fileID: 1421248569}
+  - component: {fileID: 1421248570}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -826,6 +827,35 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1421248570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421248562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1aed2e6b3700174eaee014728488957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+--- !u!1 &1592009373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
+  m_PrefabInstance: {fileID: 1691622624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1592009379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592009373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73eb825326dd9774ca6534d77cede6b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Holding
 --- !u!1001 &1691622624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -881,7 +911,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1592009379}
   m_SourcePrefab: {fileID: 100100000, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
 --- !u!1001 &4926945451096602425
 PrefabInstance:

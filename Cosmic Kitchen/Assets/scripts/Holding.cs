@@ -3,7 +3,7 @@ using Assets.Scripts.Food_related;
 using System;
 using UnityEngine;
 
-public class Holding : MonoBehaviour 
+public class Holding : MonoBehaviour // on players and places that should only hold one food like counters and stuff
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     Food holding = null;
@@ -30,7 +30,7 @@ public class Holding : MonoBehaviour
         {
             Food temp = holding;
             holding = null;
-            return holding;
+            return temp;
         }
         else
         {

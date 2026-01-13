@@ -1,25 +1,22 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class ActionScript : MonoBehaviour
+public class playerActionScript : MonoBehaviour
 {
-    [SerializeField] GameObject InteractionSymbol; 
     bool Colliding = false;
     GameObject CollisionObject = null;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") == true)
+        if (collision.gameObject.CompareTag("Interactible") == true)
         {
-            InteractionSymbol.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, -1);
             Colliding = true;
             CollisionObject = collision.gameObject;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") == true)
+        if (collision.gameObject.CompareTag("Interactible") == true)
         {
-            InteractionSymbol.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, 10);
             Colliding = false;
             CollisionObject = null;
         }
