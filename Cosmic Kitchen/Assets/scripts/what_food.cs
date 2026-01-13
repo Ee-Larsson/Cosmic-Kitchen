@@ -4,6 +4,7 @@ using UnityEngine;
 public class what_food : MonoBehaviour
 {
     [SerializeField] GameObject player;
+    [SerializeField] Food food;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,7 +14,7 @@ public class what_food : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GameObject food = player.GetComponent<Holding>().ReturnHolding();
+        food = player.GetComponent<Holding>().ReturnHolding();
         if (food == null)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, 10);
@@ -21,7 +22,6 @@ public class what_food : MonoBehaviour
         else
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, -1);
-            //gameObject = food;
         }
     }
 }

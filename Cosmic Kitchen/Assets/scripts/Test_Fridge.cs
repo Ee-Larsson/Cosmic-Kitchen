@@ -4,7 +4,7 @@ using UnityEngine;
 public class Test_Fridge : MonoBehaviour
 {
     [SerializeField] GameObject player;
-    [SerializeField] GameObject food;
+    [SerializeField] Food food;
     bool colliding;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

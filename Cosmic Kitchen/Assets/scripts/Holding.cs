@@ -5,12 +5,12 @@ using UnityEngine;
 public class Holding : MonoBehaviour // only for the player
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    GameObject holding = null;
-    public GameObject ReturnHolding()
+    Food holding = null;
+    public Food ReturnHolding()
     {
         return holding;
     }
-    public bool AddFood(GameObject change)
+    public bool AddFood(Food change)
     {
         if (holding == null)
         {
@@ -22,11 +22,11 @@ public class Holding : MonoBehaviour // only for the player
             return false;
         }
     }
-    public GameObject PlaceFood()
+    public Food PlaceFood()
     {
         if (holding != null)
         {
-            GameObject temp = holding;
+            Food temp = holding;
             holding = null;
             return holding;
         }

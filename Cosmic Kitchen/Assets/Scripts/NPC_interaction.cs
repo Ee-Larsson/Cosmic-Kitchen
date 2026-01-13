@@ -42,16 +42,17 @@ public class NPC_interaction : MonoBehaviour
         }
         if (colliding == true && Input.GetKeyUp(KeyCode.E) && HasGivenRequest == true && HasFood == false) //player gives food
         {
-            //if (request == player.GetComponent<Holding>().ReturnHolding())
-            //{
-            //    player.GetComponent<Holding>().PlaceFood();
-            //    HasFood = true;
-            //    Debug.Log("yay thank you");
-            //}
-            //else
-            //{
-            //    Debug.Log("grrrrr wrong food fuckass >:(");
-            //}
+            if (request == player.GetComponent<Holding>().ReturnHolding())
+            {
+                player.GetComponent<Holding>().PlaceFood();
+                HasFood = true;
+                Debug.Log("yay thank you");
+            }
+
+            else
+            {
+                Debug.Log("grrrrr wrong food fuckass >:(");
+            }
         }
 
 
