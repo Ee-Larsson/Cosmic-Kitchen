@@ -1,8 +1,9 @@
 using Assets.Scripts;
 using Assets.Scripts.Food_related;
+using System;
 using UnityEngine;
 
-public class Holding : MonoBehaviour // only for the player
+public class Holding : MonoBehaviour 
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     Food holding = null;
@@ -15,6 +16,7 @@ public class Holding : MonoBehaviour // only for the player
         if (holding == null)
         {
             holding = change;
+            
             return true;
         }
         else
