@@ -20,7 +20,7 @@ public class NPC_interaction : MonoBehaviour
     void Start()
     {
         
-        RequestDialouge.Add("Test string one"); Food food1 = new Food("food1", true); RequestList.Add(food1); RequestList.Add(food1); RequestList.Add(food1); RequestList.Add(food1);
+        RequestDialouge.Add("Test string one"); 
         RequestDialouge.Add("test string two"); 
         RequestDialouge.Add("Test string three");
         RequestDialouge.Add("Test string four");
@@ -42,16 +42,16 @@ public class NPC_interaction : MonoBehaviour
         }
         if (colliding == true && Input.GetKeyUp(KeyCode.E) && HasGivenRequest == true && HasFood == false) //player gives food
         {
-            if (request == player.GetComponent<Holding>().ReturnHolding())
-            {
-                player.GetComponent<Holding>().PlaceFood();
-                HasFood = true;
-                Debug.Log("yay thank you");
-            }
-            else
-            {
-                Debug.Log("grrrrr wrong food fuckass >:(");
-            }
+            //if (request == player.GetComponent<Holding>().ReturnHolding())
+            //{
+            //    player.GetComponent<Holding>().PlaceFood();
+            //    HasFood = true;
+            //    Debug.Log("yay thank you");
+            //}
+            //else
+            //{
+            //    Debug.Log("grrrrr wrong food fuckass >:(");
+            //}
         }
 
 

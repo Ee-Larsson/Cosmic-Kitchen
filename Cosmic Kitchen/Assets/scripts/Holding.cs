@@ -2,15 +2,15 @@ using Assets.Scripts;
 using Assets.Scripts.Food_related;
 using UnityEngine;
 
-public class Holding : MonoBehaviour
+public class Holding : MonoBehaviour // only for the player
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    Food holding = null;
-    public Food ReturnHolding()
+    GameObject holding = null;
+    public GameObject ReturnHolding()
     {
         return holding;
     }
-    public bool AddFood(Food change)
+    public bool AddFood(GameObject change)
     {
         if (holding == null)
         {
@@ -22,11 +22,11 @@ public class Holding : MonoBehaviour
             return false;
         }
     }
-    public Food PlaceFood()
+    public GameObject PlaceFood()
     {
         if (holding != null)
         {
-            Food temp = holding;
+            GameObject temp = holding;
             holding = null;
             return holding;
         }
