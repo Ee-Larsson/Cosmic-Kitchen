@@ -39,7 +39,7 @@ public class Ingridents : MonoBehaviour
     
 
 
-    public Ingridents()
+    void Start ()
     {
         //Adds differnt meats to list
         meats.Add(meat);
@@ -65,6 +65,11 @@ public class Ingridents : MonoBehaviour
         image.sprite = spriteList[egg.GetSpriteIndex()];
         image.sprite = spriteList[flour.GetSpriteIndex()];
 
+    }
+
+    private void Update()
+    {
+        
     }
 
 }
