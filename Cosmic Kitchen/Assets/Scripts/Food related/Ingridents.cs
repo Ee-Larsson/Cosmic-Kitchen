@@ -17,7 +17,7 @@ public class Ingridents : MonoBehaviour
 
 
     //List of different meat
-    protected List<Food> meats = new List<Food>();
+    public List<Food> meats = new List<Food>();
     Food meat = new Meat("meat", true, "cow", 0);
 
 
