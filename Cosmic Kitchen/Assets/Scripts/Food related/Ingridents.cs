@@ -61,6 +61,9 @@ public class Ingridents : MonoBehaviour
 
         //Spriteindex nonsense
         image.sprite = spriteList[meat.GetSpriteIndex()];
+        image.sprite = spriteList[potato.GetSpriteIndex()];
+        image.sprite = spriteList[egg.GetSpriteIndex()];
+        image.sprite = spriteList[flour.GetSpriteIndex()];
 
     }
 
