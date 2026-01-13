@@ -5,15 +5,25 @@ public class Movement : MonoBehaviour
 
     [SerializeField] float speed;
     Rigidbody2D rb;
+    public Animator anim;
+    bool isRunning;
+
+    //Keeps an idle animation with each direction :)
+    Vector2 lastMoveDirection;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
+
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        ProcessInput();
+        Animate();
 
         rb.linearVelocity = new Vector2(0, 0);
 
@@ -41,4 +51,40 @@ public class Movement : MonoBehaviour
             rb.linearVelocity += new Vector2(speed, 0);
         }
     }
+
+
+    void ProcessInput()
+    {
+
+
+        if ((rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0))
+        {
+            //Stops running, starts idle animations
+            anim.SetBool("isRunning", false);
+
+            // && rb.linearVelocity.x != 0 || rb.linearVelocity.y != 0
+
+        }
+        else
+        {
+            //Starts running animation
+            anim.SetBool("isRunning", true);
+
+            //Makes new idle direction with the run worth (Hard to explain <:) )
+            lastMoveDirection = rb.linearVelocity;
+        }
+    }
+
+
+    void Animate()
+    {
+        //For running
+        anim.SetFloat("XInput", rb.linearVelocity.x);
+        anim.SetFloat("YInput", rb.linearVelocity.y);
+
+        //For idle
+        anim.SetFloat("XLastInput", lastMoveDirection.x);
+        anim.SetFloat("YLastInput", lastMoveDirection.y);
+    }
+
 }

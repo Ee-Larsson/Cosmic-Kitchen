@@ -8,6 +8,7 @@ public class TestMovement : MonoBehaviour
     public Animator anim;
     bool isRunning;
 
+    //Keeps an idle animation with each direction :)
     Vector2 lastMoveDirection;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -57,10 +58,11 @@ public class TestMovement : MonoBehaviour
 
     void ProcessInput()
     {
-        lastMoveDirection = rb.linearVelocity;
+        
 
         if ((rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0))
         {
+            //Stops running, starts idle animations
             anim.SetBool("isRunning", false);
 
             // && rb.linearVelocity.x != 0 || rb.linearVelocity.y != 0
@@ -68,16 +70,22 @@ public class TestMovement : MonoBehaviour
         }
         else
         {
+            //Starts running animation
             anim.SetBool("isRunning", true);
+
+            //Makes new idle direction with the run worth (Hard to explain <:) )
+            lastMoveDirection = rb.linearVelocity;
         }
     }
 
 
     void Animate()
     {
+        //For running
         anim.SetFloat("XInput", rb.linearVelocity.x);
         anim.SetFloat("YInput", rb.linearVelocity.y);
 
+        //For idle
         anim.SetFloat("XLastInput", lastMoveDirection.x);
         anim.SetFloat("YLastInput", lastMoveDirection.y);
     }
