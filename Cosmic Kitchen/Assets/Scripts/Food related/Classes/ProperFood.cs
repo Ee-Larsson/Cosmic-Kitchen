@@ -10,14 +10,21 @@ namespace Assets.Scripts.Food_related
     public class ProperFood : Ingridents
     {
         string name;
-        public ProperFood(string name, Food ingridient1, Food ingridient2, Food ingridient3, Food ingridient4) : base()
+        int spriteIndex;
+        public ProperFood(string name, int spriteIndex, Food ingridient1, Food ingridient2, Food ingridient3, Food ingridient4) : base()
         {
             this.name = name;
+            this.spriteIndex = spriteIndex;
         }
 
         public string GetName()
         {
             return(name);
+        }
+
+        public int GetSpriteIndex()
+        {
+            return (spriteIndex);
         }
 
     }

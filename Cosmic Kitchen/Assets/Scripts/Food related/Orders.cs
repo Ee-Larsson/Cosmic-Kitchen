@@ -7,11 +7,11 @@ public class Orders : MonoBehaviour
 {
     System.Random rand = new System.Random();
 
-    Food fruitOrder = new Fruit(null, true);
+    Food fruitOrder = new Fruit(null, true, 0);
 
-    Food miscOrder = new Misc(null, true, true);
+    Food miscOrder = new Misc(null, true, true, 0);
 
-    ProperFood mealOrder = new ProperFood(null, null, null, null, null);
+    ProperFood mealOrder = new ProperFood(null, 0, null, null, null, null);
 
     Meals meal = new Meals();
 

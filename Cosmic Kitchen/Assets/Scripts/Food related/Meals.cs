@@ -13,14 +13,14 @@ namespace Assets.Scripts.Food_related
 
         //List of fruits
         List<Food> Fruits = new List<Food>();
-        Food apple = new Fruit("Blapple", true);
+        Food apple = new Fruit("Blapple", true, 0);
 
 
         //List of misc food items
         List<Food> general = new List<Food>();
-        Food bagette = new Misc("Bluegette", true, true);
-        Food fries = new Misc("Fries", true, true);
-        Food omelette = new Misc("Omelette", true, false);
+        Food bagette = new Misc("Bluegette", true, true, 0);
+        Food fries = new Misc("Fries", true, true, 0);
+        Food omelette = new Misc("Omelette", true, false, 0);
 
         //List of proper meals
         List<ProperFood> properMeals = new List<ProperFood>();
@@ -37,20 +37,20 @@ namespace Assets.Scripts.Food_related
             general.Add(fries);
 
             //Adds proper meals to list
-            ProperFood curryRice = new ProperFood("Curry and rice", null, (Veggie)veggies[0], (Meat)meats[0], null);
+            ProperFood curryRice = new ProperFood("Curry and rice", 0, null, (Veggie)veggies[0], (Meat)meats[0], null);
             properMeals.Add(curryRice);
-            ProperFood dumplings = new ProperFood("Dumplings", null, null, (Meat)meats[0], (Misc)miscs[2]);
+            ProperFood dumplings = new ProperFood("Dumplings", 1, null, null, (Meat)meats[0], (Misc)miscs[2]);
             properMeals.Add(dumplings);
-            ProperFood eggsAndBacon = new ProperFood("Eggs & Bacon", null, null, (Meat)meats[0], (Misc)miscs[1]);
+            ProperFood eggsAndBacon = new ProperFood("Eggs & Bacon", 2, null, null, (Meat)meats[0], (Misc)miscs[1]);
             properMeals.Add(eggsAndBacon);
-            ProperFood gnocci = new ProperFood("Gnocci", null, (Veggie)veggies[0], null,(Misc)miscs[2]);
+            ProperFood gnocci = new ProperFood("Gnocci", 3, null, (Veggie)veggies[0], null,(Misc)miscs[2]);
             properMeals.Add(gnocci);
-            ProperFood hashBrown = new ProperFood("Hash brown", null, (Veggie)veggies[0], null, (Misc)miscs[1]);
+            ProperFood hashBrown = new ProperFood("Hash brown", 4, null, (Veggie)veggies[0], null, (Misc)miscs[1]);
             properMeals.Add(hashBrown);
-            ProperFood pancakes = new ProperFood("Pancakes", (Misc)miscs[1], (Misc)miscs[2], null, null);
+            ProperFood pancakes = new ProperFood("Pancakes", 5, (Misc)miscs[1], (Misc)miscs[2], null, null);
             properMeals.Add(pancakes);
 
-            ProperFood steak = new ProperFood("Steak", null, null, (Meat)meats[0], null);
+            ProperFood steak = new ProperFood("Steak", 6, null, null, (Meat)meats[0], null);
             properMeals.Add(steak);
 
         }

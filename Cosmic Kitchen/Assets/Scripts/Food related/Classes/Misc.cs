@@ -9,11 +9,12 @@ namespace Assets.Scripts.Food_related
     public class Misc : Food
     {
         bool vegan;
-        public Misc(string name, bool meal, bool vegan) : base(name, meal)
+        public Misc(string name, bool meal, bool vegan, int spriteIndex) : base(name, meal, spriteIndex)
         {
             this.name = name;
             this.meal = meal;
             this.vegan = vegan;
+            this.spriteIndex = spriteIndex;
         }
     }
 }

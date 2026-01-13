@@ -10,11 +10,12 @@ namespace Assets.Scripts
     {
         string animal;
 
-        public Meat(string name, bool meal, string animal) : base(name, meal)
+        public Meat(string name, bool meal, string animal, int spriteIndex) : base(name, meal, spriteIndex)
         {
             this.name = name;
             this.meal = meal;
             this.animal = animal;
+            this.spriteIndex = spriteIndex;
         }
     }
 }
