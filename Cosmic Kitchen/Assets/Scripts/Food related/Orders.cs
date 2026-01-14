@@ -13,7 +13,7 @@ public class Orders : MonoBehaviour
 
     Food fruitOrder = new Fruit(null, true, 0);
     Food miscOrder = new Misc(null, true, true, 0);
-    ProperFood mealOrder = new ProperFood(null, 0, null, null, null, null);
+    Food mealOrder = new ProperFood(null, true, 0, null, null, null, null);
 
     List<string> dialogue = new List<string>();
 
@@ -21,7 +21,10 @@ public class Orders : MonoBehaviour
 
 
     bool toldOrder = false;
-    bool foodGained = false;
+    bool fruitGained = false;
+    bool mealGained = false;
+    bool miscGained = false;
+
     bool colliding = false;
 
     int x;
@@ -53,18 +56,40 @@ public class Orders : MonoBehaviour
             toldOrder = true;
         }
 
-        if (toldOrder == true && foodGained == false)
+        if (toldOrder == true && fruitGained == false && mealGained == false && miscGained == false)
         {
-            if(fruitOrder == player.GetComponent<Holding>().ReturnHolding())
+            if(fruitOrder == player.GetComponent<Holding>().ReturnHolding() && fruitOrder.GetName() != null)
             {
-
+                fruitGained = true;
+            }else 
+            if (fruitOrder.GetName() == null)
+            {
+                fruitGained = true;
             }
 
+            if (mealOrder == player.GetComponent<Holding>().ReturnHolding() && mealOrder.GetName() != null)
+            {
+                mealGained = true;
+            }else 
+            if(mealOrder.GetName() == null)
+            {
+                mealGained = true;
+            }
 
-        }
+            if (miscOrder == player.GetComponent<Holding>().ReturnHolding() && miscOrder.GetName() != null)
+            {
+                miscGained = true;
+            } else 
+            if(miscOrder == null)
+            {
+                miscGained = true;
+            }
 
-        if(foodGained == true)
-        {
+            if (miscGained == true && mealGained == true && fruitGained == true)
+            {
+                Debug.Log("Thank you for the food");
+            }
+
 
         }
 
@@ -74,35 +99,39 @@ public class Orders : MonoBehaviour
 
     private void OrderRandomisation()
     {
-        int randomFruit = rand.Next(1, 21);
-        Debug.Log(randomFruit);
 
-
-        int randomMeal = rand.Next(1, 7);
-        Debug.Log(randomMeal);
-
-
-        int randomMisc = rand.Next(1, 9);
-        Debug.Log(randomMisc);
-
-
-        if (randomFruit <= 1)
+        while(fruitOrder.GetName() == null || mealOrder.GetName() == null || miscOrder.GetName() == null)
         {
-           fruitOrder = meal.GetFruit();
-           Debug.Log(fruitOrder.GetName());
-        }
+            int randomFruit = rand.Next(1, 21);
+            Debug.Log(randomFruit);
 
-        if (randomMeal > 1)
-        {
-            mealOrder = meal.GetProperMeals();
 
-            Debug.Log(mealOrder.GetName());
-        }
+            int randomMeal = rand.Next(1, 7);
+            Debug.Log(randomMeal);
 
-        if (randomMisc <= 2)
-        {
-            miscOrder = meal.GetMisc();
-            Debug.Log(miscOrder.GetName());
+
+            int randomMisc = rand.Next(1, 9);
+            Debug.Log(randomMisc);
+
+
+            if (randomFruit <= 1)
+            {
+                fruitOrder = meal.GetFruit();
+                Debug.Log(fruitOrder.GetName());
+            }
+
+            if (randomMeal > 1)
+            {
+                mealOrder = meal.GetProperMeals();
+
+                Debug.Log(mealOrder.GetName());
+            }
+
+            if (randomMisc <= 2)
+            {
+                miscOrder = meal.GetMisc();
+                Debug.Log(miscOrder.GetName());
+            }
         }
 
     }
