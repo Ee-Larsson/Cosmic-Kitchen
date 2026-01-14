@@ -19,9 +19,9 @@ namespace Assets.Scripts.Food_related
 
         //List of misc food items
         List<Food> general = new List<Food>();
-        Food bagette = new Misc("Bluegette", true, true, 0);
-        Food fries = new Misc("Fries", true, true, 0);
-        Food omelette = new Misc("Omelette", true, false, 0);
+        Food bagette = new Misc("Bluegette", true, true, 11);
+        Food fries = new Misc("Fries", true, true, 12);
+        Food omelette = new Misc("Omelette", true, false, 13);
 
         //List of proper meals
         List<ProperFood> properMeals = new List<ProperFood>();
@@ -73,6 +73,11 @@ namespace Assets.Scripts.Food_related
 
             image.sprite = spriteList[pancakes.GetSpriteIndex()];
 
+            image.sprite = spriteList[bagette.GetSpriteIndex()];
+
+            image.sprite = spriteList[fries.GetSpriteIndex()];
+
+            image.sprite = spriteList[omelette.GetSpriteIndex()];
         }
 
 

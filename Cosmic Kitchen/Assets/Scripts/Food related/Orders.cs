@@ -9,12 +9,13 @@ public class Orders : MonoBehaviour
 {
     System.Random rand = new System.Random();
 
+    [SerializeField] GameObject player;
 
     Food fruitOrder = new Fruit(null, true, 0);
     Food miscOrder = new Misc(null, true, true, 0);
     ProperFood mealOrder = new ProperFood(null, 0, null, null, null, null);
 
-    List<String> dialogue = new List<String>();
+    List<string> dialogue = new List<string>();
 
     Meals meal = new Meals();
 
@@ -37,9 +38,9 @@ public class Orders : MonoBehaviour
         dialogue.Add("Fluff 2");
         dialogue.Add("Fluff 3");
         dialogue.Add("Fluff 4");
-
+        
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -54,8 +55,16 @@ public class Orders : MonoBehaviour
 
         if (toldOrder == true && foodGained == false)
         {
-            
+            if(fruitOrder == player.GetComponent<Holding>().ReturnHolding())
+            {
 
+            }
+
+
+        }
+
+        if(foodGained == true)
+        {
 
         }
 
