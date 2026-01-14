@@ -1,4 +1,5 @@
 using Assets.Scripts;
+using Assets.Scripts.Food_related;
 using UnityEngine;
 
 public class Test_stove : MonoBehaviour
@@ -7,16 +8,22 @@ public class Test_stove : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         holding = gameObject.GetComponent<Holding>().ReturnHolding();
-        if (holding != null)
+        if (holding.GetSpriteIndex() == 2) // egg
         {
-
+            gameObject.GetComponent<Holding>().PlaceFood();
+            gameObject.GetComponent<Holding>().AddFood(new Misc("Omelette", true, false, 13));
+        }
+        else if (holding.GetSpriteIndex() == 0) //meat
+        {
+            gameObject.GetComponent<Holding>().PlaceFood();
+            gameObject.GetComponent<Holding>().AddFood(new Misc("Steak", true, false, 10));
         }
     }
 }
