@@ -18,11 +18,11 @@ public class what_food : MonoBehaviour
         food = gameObject.GetComponentInParent<Holding>().ReturnHolding();
         if (food == null)
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, 10);
+            GetComponent<SpriteRenderer>().sortingOrder = -1;
         }
         else
         {
-            transform.position = new Vector3(transform.position.x, transform.position.y, -1);
+            GetComponent<SpriteRenderer>().sortingOrder = 1;
             gameObject.GetComponent<SpriteRenderer>().sprite = sprites[food.GetSpriteIndex()];
         }
     }

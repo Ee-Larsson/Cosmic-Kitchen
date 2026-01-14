@@ -10,7 +10,7 @@ public class ActionScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") == true)
         {
-            InteractionSymbol.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, -1);
+            InteractionSymbol.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, -5);
             Colliding = true;
             CollisionObject = collision.gameObject;
         }
