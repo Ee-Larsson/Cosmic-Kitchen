@@ -11,13 +11,13 @@ using UnityEngine;
 
 public class Ingridents : MonoBehaviour
 {
-    [SerializeField] SpriteRenderer image;
+    [SerializeField] protected SpriteRenderer image;
 
-    [SerializeField] List<Sprite> spriteList;
+    [SerializeField] protected List<Sprite> spriteList;
 
 
     //List of different meat
-    public List<Food> meats = new List<Food>();
+    protected List<Food> meats = new List<Food>();
     Food meat = new Meat("meat", true, "cow", 0);
 
 
