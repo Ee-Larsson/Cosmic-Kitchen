@@ -3,9 +3,10 @@ using Assets.Scripts.Food_related;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
-public class Orders : MonoBehaviour
+public class Orders : Meals
 {
     System.Random rand = new System.Random();
 
@@ -16,8 +17,6 @@ public class Orders : MonoBehaviour
     Food mealOrder = new ProperFood(null, true, 0, null, null, null, null);
 
     List<string> dialogue = new List<string>();
-
-    Meals meal = new Meals();
 
 
     bool toldOrder = false;
@@ -34,7 +33,7 @@ public class Orders : MonoBehaviour
     void Start()
     {
         OrderRandomisation();
-        x = rand.Next(dialogue.Count);
+        x = rand.Next(0, dialogue.Count);
 
         dialogue.Add("Hello, i would like " + mealOrder.GetName() + ", along with " + fruitOrder.GetName() + " and " + miscOrder.GetName());
         dialogue.Add("Fluff 1");
@@ -56,51 +55,86 @@ public class Orders : MonoBehaviour
             toldOrder = true;
         }
 
-        if (toldOrder == true && fruitGained == false && mealGained == false && miscGained == false)
+        if (toldOrder == true && colliding == true && Input.GetKeyUp(KeyCode.E) && fruitGained == false || mealGained == false || miscGained == false)
         {
-            if(fruitOrder == player.GetComponent<Holding>().ReturnHolding() && fruitOrder.GetName() != null)
+
+            //fruit given to customers
+            if (fruitOrder == player.GetComponent<Holding>().ReturnHolding() && fruitOrder.GetName() != null)
             {
+                gameObject.GetComponent<Holding>().AddFood(ReturnHolding());
+                player.GetComponent<Holding>().PlaceFood();
+
                 fruitGained = true;
-            }else 
+            } else
             if (fruitOrder.GetName() == null)
             {
                 fruitGained = true;
             }
+            else
+            if (fruitOrder != player.GetComponent<Holding>().ReturnHolding() && fruitOrder.GetName() != null)
+            {
+                Debug.Log("Wrong fruit, you fokkin idiot!");
+            }
 
+
+            //Meals given to customers
             if (mealOrder == player.GetComponent<Holding>().ReturnHolding() && mealOrder.GetName() != null)
             {
+                gameObject.GetComponent<Holding>().AddFood(ReturnHolding());
+                player.GetComponent<Holding>().PlaceFood();
                 mealGained = true;
-            }else 
+            } else 
             if(mealOrder.GetName() == null)
             {
                 mealGained = true;
+            } else
+            if (mealOrder != player.GetComponent<Holding>().ReturnHolding() && mealOrder.GetName() != null)
+            {
+                Debug.Log("Wrong meal, you fokkin idiot!");
             }
 
+
+            //Misc foods given to customers
             if (miscOrder == player.GetComponent<Holding>().ReturnHolding() && miscOrder.GetName() != null)
             {
+                gameObject.GetComponent<Holding>().AddFood(ReturnHolding());
+                player.GetComponent<Holding>().PlaceFood();
                 miscGained = true;
             } else 
             if(miscOrder == null)
             {
                 miscGained = true;
+            } else
+            if(miscOrder != player.GetComponent<Holding>().ReturnHolding() && miscOrder.GetName() != null)
+            {
+                Debug.Log("Wrong misc food, you fokkin idiot!");
             }
 
-            if (miscGained == true && mealGained == true && fruitGained == true)
-            {
-                Debug.Log("Thank you for the food");
-            }
+            
+            
 
 
         }
+        //right or wrong food
+        if (miscGained == true && mealGained == true && fruitGained == true)
+        {
+            Debug.Log("Thank you for the food");
+            float time = 3.0f;
+
+            time -= Time.deltaTime;
+            if(time <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
 
 
-        
     }
 
     private void OrderRandomisation()
     {
 
-        while(fruitOrder.GetName() == null || mealOrder.GetName() == null || miscOrder.GetName() == null)
+        while(fruitOrder.GetName() == null && mealOrder.GetName() == null && miscOrder.GetName() == null)
         {
             int randomFruit = rand.Next(1, 21);
             Debug.Log(randomFruit);
@@ -116,20 +150,22 @@ public class Orders : MonoBehaviour
 
             if (randomFruit <= 1)
             {
-                fruitOrder = meal.GetFruit();
-                Debug.Log(fruitOrder.GetName());
+          //      fruitOrder = GetFruit();
+
+          //      Debug.Log(fruitOrder.GetName());
             }
 
             if (randomMeal > 1)
             {
-                mealOrder = meal.GetProperMeals();
-
+                mealOrder = GetProperMeals();
+                
                 Debug.Log(mealOrder.GetName());
             }
 
             if (randomMisc <= 2)
             {
-                miscOrder = meal.GetMisc();
+                miscOrder = GetMisc();
+
                 Debug.Log(miscOrder.GetName());
             }
         }
