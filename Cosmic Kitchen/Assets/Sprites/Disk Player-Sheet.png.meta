@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: e09fec58d8823c1448db6914054c29e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3708413603205914686
+    second: Disk Player-Sheet_0
+  - first:
+      213: 5250087139299600288
+    second: Disk Player-Sheet_1
+  - first:
+      213: -3404371539735998828
+    second: Disk Player-Sheet_2
+  - first:
+      213: 1741372690894692697
+    second: Disk Player-Sheet_3
+  - first:
+      213: -8010713826292260223
+    second: Disk Player-Sheet_4
+  - first:
+      213: 2187741775507006188
+    second: Disk Player-Sheet_5
+  - first:
+      213: -7504950898239743618
+    second: Disk Player-Sheet_6
+  - first:
+      213: -672282395446190592
+    second: Disk Player-Sheet_7
+  - first:
+      213: 778814230572352074
+    second: Disk Player-Sheet_8
+  - first:
+      213: -4703871291914585151
+    second: Disk Player-Sheet_9
+  - first:
+      213: 5194562366465953345
+    second: Disk Player-Sheet_10
+  - first:
+      213: 6688845611578818569
+    second: Disk Player-Sheet_11
+  - first:
+      213: -4687863227560134213
+    second: Disk Player-Sheet_12
+  - first:
+      213: -1744604103453486642
+    second: Disk Player-Sheet_13
+  - first:
+      213: -135424297156804299
+    second: Disk Player-Sheet_14
+  - first:
+      213: 3303791206525835711
+    second: Disk Player-Sheet_15
+  - first:
+      213: -250444323226385771
+    second: Disk Player-Sheet_16
+  - first:
+      213: -9103927528962158422
+    second: Disk Player-Sheet_17
+  - first:
+      213: -3303560320304688176
+    second: Disk Player-Sheet_18
+  - first:
+      213: -4950151818492173384
+    second: Disk Player-Sheet_19
+  - first:
+      213: 8024491349181245846
+    second: Disk Player-Sheet_20
+  - first:
+      213: 474377790773844216
+    second: Disk Player-Sheet_21
+  - first:
+      213: 2113556415682561048
+    second: Disk Player-Sheet_22
+  - first:
+      213: -5609012074894810854
+    second: Disk Player-Sheet_23
+  - first:
+      213: 7641678078572485295
+    second: Disk Player-Sheet_24
+  - first:
+      213: 3522416230278410569
+    second: Disk Player-Sheet_25
+  - first:
+      213: 2109264738067131842
+    second: Disk Player-Sheet_26
+  - first:
+      213: -6199205388716981431
+    second: Disk Player-Sheet_27
+  - first:
+      213: -3228068652542241578
+    second: Disk Player-Sheet_28
+  - first:
+      213: 1530524072827160973
+    second: Disk Player-Sheet_29
+  - first:
+      213: 2653397935170281521
+    second: Disk Player-Sheet_30
+  - first:
+      213: 7127471805275661784
+    second: Disk Player-Sheet_31
+  - first:
+      213: -6454142259399124851
+    second: Disk Player-Sheet_32
+  - first:
+      213: -7421049354918033023
+    second: Disk Player-Sheet_33
+  - first:
+      213: -5042356887822776356
+    second: Disk Player-Sheet_34
+  - first:
+      213: 1992228784280526353
+    second: Disk Player-Sheet_35
+  - first:
+      213: 7071267223259047992
+    second: Disk Player-Sheet_36
+  - first:
+      213: -8231135309599358216
+    second: Disk Player-Sheet_37
+  - first:
+      213: 2702319368655423658
+    second: Disk Player-Sheet_38
+  - first:
+      213: -1575561511274129226
+    second: Disk Player-Sheet_39
+  - first:
+      213: 7791740962028648036
+    second: Disk Player-Sheet_40
+  - first:
+      213: -1216696918533725943
+    second: Disk Player-Sheet_41
+  - first:
+      213: -5305408566320786585
+    second: Disk Player-Sheet_42
+  - first:
+      213: 1852172980275297936
+    second: Disk Player-Sheet_43
+  - first:
+      213: 3852031485610672309
+    second: Disk Player-Sheet_44
+  - first:
+      213: -4249412103579713971
+    second: Disk Player-Sheet_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Disk Player-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30a05b268ee67330800000000000000
+      internalID: 3708413603205914686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7acc1ef6e0cd840800000000000000
+      internalID: 5250087139299600288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e069a2f1e31c0d0800000000000000
+      internalID: -3404371539735998828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95128567c399a2810800000000000000
+      internalID: 1741372690894692697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1822a82b73a34d090800000000000000
+      internalID: -8010713826292260223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a06dbd8b6c5e10800000000000000
+      internalID: 2187741775507006188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79dba5cbee09d790800000000000000
+      internalID: -7504950898239743618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e5ea629b29ba6f0800000000000000
+      internalID: -672282395446190592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42c8479a67eeca00800000000000000
+      internalID: 778814230572352074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbf5407bfd78beb0800000000000000
+      internalID: -4703871291914585151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ec0d843fac61840800000000000000
+      internalID: 5194562366465953345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900069b05ad83dc50800000000000000
+      internalID: 6688845611578818569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb979ad5b3d51feb0800000000000000
+      internalID: -4687863227560134213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec157fbafcbe9c7e0800000000000000
+      internalID: -1744604103453486642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531030ab150ee1ef0800000000000000
+      internalID: -135424297156804299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9180d199c69dd20800000000000000
+      internalID: 3303791206525835711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5920416073e368cf0800000000000000
+      internalID: -250444323226385771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa09f47a52a58a180800000000000000
+      internalID: -9103927528962158422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3d92644656722d0800000000000000
+      internalID: -3303560320304688176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3258ae5278d4bb0800000000000000
+      internalID: -4950151818492173384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699a423dd58bc5f60800000000000000
+      internalID: 8024491349181245846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8d86c5614559600800000000000000
+      internalID: 474377790773844216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814c189ac5cd45d10800000000000000
+      internalID: 2113556415682561048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11a4075c39c822b0800000000000000
+      internalID: -5609012074894810854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faad331a9b1bc0a60800000000000000
+      internalID: 7641678078572485295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941b0dc16e222e030800000000000000
+      internalID: 3522416230278410569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdafb99a1d954d10800000000000000
+      internalID: 2109264738067131842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94346d33b8ff7f9a0800000000000000
+      internalID: -6199205388716981431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d455aed9a89333d0800000000000000
+      internalID: -3228068652542241578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d890c0109838d3510800000000000000
+      internalID: 1530524072827160973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3403
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130649d1d53c2d420800000000000000
+      internalID: 2653397935170281521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3515
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5611c08ddd9e260800000000000000
+      internalID: 7127471805275661784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d889da28fc74e66a0800000000000000
+      internalID: -6454142259399124851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189087b1ee2230990800000000000000
+      internalID: -7421049354918033023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd744964023f50ab0800000000000000
+      internalID: -5042356887822776356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3963
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e59562681d5ab10800000000000000
+      internalID: 1992228784280526353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4075
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838e73a0310322260800000000000000
+      internalID: 7071267223259047992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 4187
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2c72ddb0225cd80800000000000000
+      internalID: -8231135309599358216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa84d56f521908520800000000000000
+      internalID: 2702319368655423658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 4411
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b85ab6372b722ae0800000000000000
+      internalID: -1575561511274129226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4523
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466f39f5f13d12c60800000000000000
+      internalID: 7791740962028648036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 4635
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9012c73599c6d1fe0800000000000000
+      internalID: -1216696918533725943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 4747
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7639228a4076f56b0800000000000000
+      internalID: -5305408566320786585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 23
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eb2e7238d34b910800000000000000
+      internalID: 1852172980275297936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 4971
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0c17b2a3a257530800000000000000
+      internalID: 3852031485610672309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk Player-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 5083
+        y: 23
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eb2e5c43e0705c0800000000000000
+      internalID: -4249412103579713971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Disk Player-Sheet_0: 3708413603205914686
+      Disk Player-Sheet_1: 5250087139299600288
+      Disk Player-Sheet_10: 5194562366465953345
+      Disk Player-Sheet_11: 6688845611578818569
+      Disk Player-Sheet_12: -4687863227560134213
+      Disk Player-Sheet_13: -1744604103453486642
+      Disk Player-Sheet_14: -135424297156804299
+      Disk Player-Sheet_15: 3303791206525835711
+      Disk Player-Sheet_16: -250444323226385771
+      Disk Player-Sheet_17: -9103927528962158422
+      Disk Player-Sheet_18: -3303560320304688176
+      Disk Player-Sheet_19: -4950151818492173384
+      Disk Player-Sheet_2: -3404371539735998828
+      Disk Player-Sheet_20: 8024491349181245846
+      Disk Player-Sheet_21: 474377790773844216
+      Disk Player-Sheet_22: 2113556415682561048
+      Disk Player-Sheet_23: -5609012074894810854
+      Disk Player-Sheet_24: 7641678078572485295
+      Disk Player-Sheet_25: 3522416230278410569
+      Disk Player-Sheet_26: 2109264738067131842
+      Disk Player-Sheet_27: -6199205388716981431
+      Disk Player-Sheet_28: -3228068652542241578
+      Disk Player-Sheet_29: 1530524072827160973
+      Disk Player-Sheet_3: 1741372690894692697
+      Disk Player-Sheet_30: 2653397935170281521
+      Disk Player-Sheet_31: 7127471805275661784
+      Disk Player-Sheet_32: -6454142259399124851
+      Disk Player-Sheet_33: -7421049354918033023
+      Disk Player-Sheet_34: -5042356887822776356
+      Disk Player-Sheet_35: 1992228784280526353
+      Disk Player-Sheet_36: 7071267223259047992
+      Disk Player-Sheet_37: -8231135309599358216
+      Disk Player-Sheet_38: 2702319368655423658
+      Disk Player-Sheet_39: -1575561511274129226
+      Disk Player-Sheet_4: -8010713826292260223
+      Disk Player-Sheet_40: 7791740962028648036
+      Disk Player-Sheet_41: -1216696918533725943
+      Disk Player-Sheet_42: -5305408566320786585
+      Disk Player-Sheet_43: 1852172980275297936
+      Disk Player-Sheet_44: 3852031485610672309
+      Disk Player-Sheet_45: -4249412103579713971
+      Disk Player-Sheet_5: 2187741775507006188
+      Disk Player-Sheet_6: -7504950898239743618
+      Disk Player-Sheet_7: -672282395446190592
+      Disk Player-Sheet_8: 778814230572352074
+      Disk Player-Sheet_9: -4703871291914585151
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

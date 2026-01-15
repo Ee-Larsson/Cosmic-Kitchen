@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ChangeScene : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Image fade;
+    
     void Start()
     {
         
@@ -19,6 +22,7 @@ public class ChangeScene : MonoBehaviour
 
     public void GoToSceneTestMap()
     {
-        SceneManager.LoadScene("TestMap");
+        fade.GetComponent<Animator>().Play("FadeAnim");
+        //SceneManager.LoadScene("TestMap");
     }
 }
