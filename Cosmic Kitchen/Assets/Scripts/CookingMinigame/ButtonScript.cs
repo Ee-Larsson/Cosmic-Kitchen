@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PushButton : MonoBehaviour
+public class ButtonScript : MonoBehaviour
 {
     public Image BAM;
 
@@ -12,6 +12,7 @@ public class PushButton : MonoBehaviour
     void Start()
     {
         BAM.enabled = false;
+        
     }
 
     // Update is called once per frame
@@ -19,13 +20,14 @@ public class PushButton : MonoBehaviour
     {
         if (EventSystem.current.IsPointerOverGameObject())
         {
-            print("HOVERING");
             BAM.enabled = true;
         }
         else
         {
             BAM.enabled = false;
         }
+
     }
 
 }
+

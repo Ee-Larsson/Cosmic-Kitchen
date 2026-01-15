@@ -9,7 +9,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 
-public class Ingridents : MonoBehaviour
+public class Ingridents : Holding
 {
     [SerializeField] protected SpriteRenderer image;
 

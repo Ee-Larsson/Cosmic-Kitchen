@@ -1,6 +1,7 @@
 ﻿using Microsoft.Unity.VisualStudio.Editor;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace Assets.Scripts.Food_related
 
         //List of fruits
         List<Food> Fruits = new List<Food>();
-        Food apple = new Fruit("Blapple", true, 0);
+        //Food apple = new Fruit("Blapple", true, 0);
 
 
         //List of misc food items
@@ -27,10 +28,10 @@ namespace Assets.Scripts.Food_related
         List<Food> properMeals = new List<Food>();
 
 
-        public Meals()
+        private void Start()
         {
             //Adds fruits to list
-            fruits.Add(apple);
+            //fruits.Add(apple);
 
             //Adds misc food items to list
             general.Add(bagette);
@@ -81,25 +82,27 @@ namespace Assets.Scripts.Food_related
         }
 
 
-        public Food GetFruit()
+        //protected Food GetFruit()
+       // {
+
+        //    int x = rand.Next(0, Fruits.Count);
+
+     //       return (Fruits[x]);
+      //  }
+        protected Food GetProperMeals()
         {
 
-            int x = rand.Next(Fruits.Count);
+            int x = rand.Next(0, properMeals.Count);
 
-            return (Fruits[x]);
-        }
-        public Food GetProperMeals()
-        {
-
-            int x = rand.Next(properMeals.Count);
+            print(x);
 
             return (properMeals[x]);
         }
 
-        public Food GetMisc()
+        protected Food GetMisc()
         {
 
-            int x = rand.Next(general.Count);
+            int x = rand.Next(0, general.Count);
 
             return (general[x]);
         }
