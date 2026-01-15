@@ -7,6 +7,7 @@ public class TestMovement : MonoBehaviour
     Rigidbody2D rb;
     public Animator anim;
     bool isRunning;
+    bool isIdle;
 
     //Keeps an idle animation with each direction :)
     Vector2 lastMoveDirection;
@@ -27,34 +28,62 @@ public class TestMovement : MonoBehaviour
 
         rb.linearVelocity = new Vector2(0, 0);
 
-        //move up
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if (isIdle)
         {
-            rb.linearVelocity += new Vector2(0, speed);
-            
-        }
+            //move up
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            {
+                rb.linearVelocity += new Vector2(0, speed);
 
-        //move down
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            rb.linearVelocity += new Vector2(0, -speed);
-            
-        }
+            }
 
-        //move left
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            rb.linearVelocity += new Vector2(-speed, 0);
-            
-        }
+            //move down
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+            {
+                rb.linearVelocity += new Vector2(0, -speed);
 
-        //move right
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            rb.linearVelocity += new Vector2(speed, 0);
-            
+            }
+
+            //move left
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            {
+                rb.linearVelocity += new Vector2(-speed, 0);
+
+            }
+
+            //move right
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            {
+                rb.linearVelocity += new Vector2(speed, 0);
+
+            }
         }
     }
+
+    //To get Cooking() or Cleaning(), you have to call it from another class.
+    //Use Public TestMovement Player, and put it the player.
+    //Then you can just call it by player.Cooking();
+
+    public void Cooking()
+    {
+        isIdle = false;
+        anim.SetTrigger("isCooking");
+    }
+
+    public void Cleaning()
+    {
+        //Has to put in dish, and animate it too for it to work)
+        isIdle = false;
+        anim.SetTrigger("isCleaning");
+    }
+
+    public void StopInteract()
+    {
+        isIdle = true;
+    }
+
+
+
 
     void ProcessInput()
     {

@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: e72a9534f0c22e547820fcbbb6107b8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4907665063471113889
+    second: Disk animation-Sheet 1_0
+  - first:
+      213: -7447351821124977748
+    second: Disk animation-Sheet 1_1
+  - first:
+      213: 7340734479788038755
+    second: Disk animation-Sheet 1_2
+  - first:
+      213: 4043211654313055944
+    second: Disk animation-Sheet 1_3
+  - first:
+      213: 5526226042455428593
+    second: Disk animation-Sheet 1_4
+  - first:
+      213: 755250023037962879
+    second: Disk animation-Sheet 1_5
+  - first:
+      213: 4342864121419735965
+    second: Disk animation-Sheet 1_6
+  - first:
+      213: 3140729866676106328
+    second: Disk animation-Sheet 1_7
+  - first:
+      213: 369909186516193883
+    second: Disk animation-Sheet 1_8
+  - first:
+      213: -4097166923411081752
+    second: Disk animation-Sheet 1_9
+  - first:
+      213: -7800913720649862477
+    second: Disk animation-Sheet 1_10
+  - first:
+      213: -8272254450630840173
+    second: Disk animation-Sheet 1_11
+  - first:
+      213: 3490277995461191229
+    second: Disk animation-Sheet 1_12
+  - first:
+      213: 8336640362183457543
+    second: Disk animation-Sheet 1_13
+  - first:
+      213: 2095887694217223552
+    second: Disk animation-Sheet 1_14
+  - first:
+      213: -2090900962362278049
+    second: Disk animation-Sheet 1_15
+  - first:
+      213: 7807699673063063092
+    second: Disk animation-Sheet 1_16
+  - first:
+      213: -8888097525676819227
+    second: Disk animation-Sheet 1_17
+  - first:
+      213: 5117921232422480395
+    second: Disk animation-Sheet 1_18
+  - first:
+      213: 1481008473542140883
+    second: Disk animation-Sheet 1_19
+  - first:
+      213: 8721557811749954006
+    second: Disk animation-Sheet 1_20
+  - first:
+      213: -9204960865050062816
+    second: Disk animation-Sheet 1_21
+  - first:
+      213: 6836699384472333342
+    second: Disk animation-Sheet 1_22
+  - first:
+      213: 6213882617333717113
+    second: Disk animation-Sheet 1_23
+  - first:
+      213: -5273531451622305835
+    second: Disk animation-Sheet 1_24
+  - first:
+      213: -6904598169806204338
+    second: Disk animation-Sheet 1_25
+  - first:
+      213: 2391319456301228366
+    second: Disk animation-Sheet 1_26
+  - first:
+      213: 21918229864340353
+    second: Disk animation-Sheet 1_27
+  - first:
+      213: -8832856110177971461
+    second: Disk animation-Sheet 1_28
+  - first:
+      213: -7476368572579998874
+    second: Disk animation-Sheet 1_29
+  - first:
+      213: -6126726351937802140
+    second: Disk animation-Sheet 1_30
+  - first:
+      213: 7227776351578805621
+    second: Disk animation-Sheet 1_31
+  - first:
+      213: 5096670956421310362
+    second: Disk animation-Sheet 1_32
+  - first:
+      213: -8427068819939344843
+    second: Disk animation-Sheet 1_33
+  - first:
+      213: 9053739388497844822
+    second: Disk animation-Sheet 1_34
+  - first:
+      213: 7106695514438991566
+    second: Disk animation-Sheet 1_35
+  - first:
+      213: -7533647985940947532
+    second: Disk animation-Sheet 1_36
+  - first:
+      213: 6413641130347356969
+    second: Disk animation-Sheet 1_37
+  - first:
+      213: -7083426491448634915
+    second: Disk animation-Sheet 1_38
+  - first:
+      213: 3837785214622877768
+    second: Disk animation-Sheet 1_39
+  - first:
+      213: 8955164424845641798
+    second: Disk animation-Sheet 1_40
+  - first:
+      213: -4062972359786815236
+    second: Disk animation-Sheet 1_41
+  - first:
+      213: 3454710943859953820
+    second: Disk animation-Sheet 1_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 11
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 479
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a66ac09f578b1440800000000000000
+      internalID: 4907665063471113889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 479
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabbc78f9f0b5a890800000000000000
+      internalID: -7447351821124977748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 479
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a5a32dd178fd560800000000000000
+      internalID: 7340734479788038755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 479
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c69c07e39f5c1830800000000000000
+      internalID: 4043211654313055944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 479
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd81117e4911bc40800000000000000
+      internalID: 5526226042455428593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 479
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a88cbf4ef2b7a00800000000000000
+      internalID: 755250023037962879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 479
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d932301b8e3f44c30800000000000000
+      internalID: 4342864121419735965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85470b66c2d169b20800000000000000
+      internalID: 3140729866676106328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52937df17e222500800000000000000
+      internalID: 369909186516193883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e53a901460f327c0800000000000000
+      internalID: -4097166923411081752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2b1355d469db390800000000000000
+      internalID: -7800913720649862477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390318ac76c033d80800000000000000
+      internalID: -8272254450630840173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36a3d63855ff6030800000000000000
+      internalID: 3490277995461191229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 399
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf0207d32b1b370800000000000000
+      internalID: 8336640362183457543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d1eeed0c6161d10800000000000000
+      internalID: 2095887694217223552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fbfdd17a0abf2e0800000000000000
+      internalID: -2090900962362278049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 319
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e7bd55c758a5c60800000000000000
+      internalID: 7807699673063063092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 319
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec310d346227a480800000000000000
+      internalID: -8888097525676819227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 319
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aa8f6be32860740800000000000000
+      internalID: 5117921232422480395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 319
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3a2d62c599d8410800000000000000
+      internalID: 1481008473542140883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 319
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1a369fe92390970800000000000000
+      internalID: 8721557811749954006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020915bfcd8614080800000000000000
+      internalID: -9204960865050062816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cea972ed5d0ee50800000000000000
+      internalID: 6836699384472333342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978962261552c3650800000000000000
+      internalID: 6213882617333717113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfc33ac517a0d6b0800000000000000
+      internalID: -5273531451622305835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4293e3fb80fd20a0800000000000000
+      internalID: -6904598169806204338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41a051306caf2120800000000000000
+      internalID: 2391319456301228366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 239
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b5b21938edd4000800000000000000
+      internalID: 21918229864340353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf214b09a246b6580800000000000000
+      internalID: -8832856110177971461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663997d056a9e3890800000000000000
+      internalID: -7476368572579998874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460f8bcf7de79faa0800000000000000
+      internalID: -6126726351937802140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575d2df1c483e4460800000000000000
+      internalID: 7227776351578805621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97ea864b330bb640800000000000000
+      internalID: 5096670956421310362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ebeb98e890d0b80800000000000000
+      internalID: -8427068819939344843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 159
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a506c410855ad70800000000000000
+      internalID: 9053739388497844822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 79
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece7ff0eaed00a260800000000000000
+      internalID: 7106695514438991566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 79
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd172f521b137790800000000000000
+      internalID: -7533647985940947532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 79
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923603b80a4d10950800000000000000
+      internalID: 6413641130347356969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 79
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1dc98b22d92bd90800000000000000
+      internalID: -7083426491448634915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 79
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848c7d9b15d824530800000000000000
+      internalID: 3837785214622877768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 79
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648c3201992274c70800000000000000
+      internalID: 8955164424845641798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 79
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf02da25a2c6d97c0800000000000000
+      internalID: -4062972359786815236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Disk animation-Sheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c905d62bc4991ff20800000000000000
+      internalID: 3454710943859953820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Disk animation-Sheet 1_0: 4907665063471113889
+      Disk animation-Sheet 1_1: -7447351821124977748
+      Disk animation-Sheet 1_10: -7800913720649862477
+      Disk animation-Sheet 1_11: -8272254450630840173
+      Disk animation-Sheet 1_12: 3490277995461191229
+      Disk animation-Sheet 1_13: 8336640362183457543
+      Disk animation-Sheet 1_14: 2095887694217223552
+      Disk animation-Sheet 1_15: -2090900962362278049
+      Disk animation-Sheet 1_16: 7807699673063063092
+      Disk animation-Sheet 1_17: -8888097525676819227
+      Disk animation-Sheet 1_18: 5117921232422480395
+      Disk animation-Sheet 1_19: 1481008473542140883
+      Disk animation-Sheet 1_2: 7340734479788038755
+      Disk animation-Sheet 1_20: 8721557811749954006
+      Disk animation-Sheet 1_21: -9204960865050062816
+      Disk animation-Sheet 1_22: 6836699384472333342
+      Disk animation-Sheet 1_23: 6213882617333717113
+      Disk animation-Sheet 1_24: -5273531451622305835
+      Disk animation-Sheet 1_25: -6904598169806204338
+      Disk animation-Sheet 1_26: 2391319456301228366
+      Disk animation-Sheet 1_27: 21918229864340353
+      Disk animation-Sheet 1_28: -8832856110177971461
+      Disk animation-Sheet 1_29: -7476368572579998874
+      Disk animation-Sheet 1_3: 4043211654313055944
+      Disk animation-Sheet 1_30: -6126726351937802140
+      Disk animation-Sheet 1_31: 7227776351578805621
+      Disk animation-Sheet 1_32: 5096670956421310362
+      Disk animation-Sheet 1_33: -8427068819939344843
+      Disk animation-Sheet 1_34: 9053739388497844822
+      Disk animation-Sheet 1_35: 7106695514438991566
+      Disk animation-Sheet 1_36: -7533647985940947532
+      Disk animation-Sheet 1_37: 6413641130347356969
+      Disk animation-Sheet 1_38: -7083426491448634915
+      Disk animation-Sheet 1_39: 3837785214622877768
+      Disk animation-Sheet 1_4: 5526226042455428593
+      Disk animation-Sheet 1_40: 8955164424845641798
+      Disk animation-Sheet 1_41: -4062972359786815236
+      Disk animation-Sheet 1_42: 3454710943859953820
+      Disk animation-Sheet 1_5: 755250023037962879
+      Disk animation-Sheet 1_6: 4342864121419735965
+      Disk animation-Sheet 1_7: 3140729866676106328
+      Disk animation-Sheet 1_8: 369909186516193883
+      Disk animation-Sheet 1_9: -4097166923411081752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

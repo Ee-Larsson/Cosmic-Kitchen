@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb;
     public Animator anim;
     bool isRunning;
+    bool isIdle;
 
     //Keeps an idle animation with each direction :)
     Vector2 lastMoveDirection;
@@ -17,6 +18,8 @@ public class Movement : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
 
         anim = GetComponent<Animator>();
+
+        isIdle = true;
     }
 
     // Update is called once per frame
@@ -27,28 +30,31 @@ public class Movement : MonoBehaviour
 
         rb.linearVelocity = new Vector2(0, 0);
 
-        //move up
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if (isIdle)
         {
-            rb.linearVelocity += new Vector2(0, speed);
-        }
+            //move up
+            if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+            {
+                rb.linearVelocity += new Vector2(0, speed);
+            }
 
-        //move down
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
-        {
-            rb.linearVelocity += new Vector2(0, -speed);
-        }
+            //move down
+            if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+            {
+                rb.linearVelocity += new Vector2(0, -speed);
+            }
 
-        //move left
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        {
-            rb.linearVelocity += new Vector2(-speed, 0);
-        }
+            //move left
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            {
+                rb.linearVelocity += new Vector2(-speed, 0);
+            }
 
-        //move right
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        {
-            rb.linearVelocity += new Vector2(speed, 0);
+            //move right
+            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            {
+                rb.linearVelocity += new Vector2(speed, 0);
+            }
         }
     }
 
@@ -56,23 +62,37 @@ public class Movement : MonoBehaviour
     void ProcessInput()
     {
 
+           if ((rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0))
+           {
+               //Stops running, starts idle animations
+               anim.SetBool("isRunning", false);
+               
+           }
+           else
+           {
+               //Starts running animation
+                anim.SetBool("isRunning", true);
+               //Makes new idle direction with the run worth (Hard to explain <:) )
+               lastMoveDirection = rb.linearVelocity;
+           }
 
-        if ((rb.linearVelocity.x == 0 && rb.linearVelocity.y == 0))
-        {
-            //Stops running, starts idle animations
-            anim.SetBool("isRunning", false);
+    }
 
-            // && rb.linearVelocity.x != 0 || rb.linearVelocity.y != 0
+    public void Cooking()
+    {
+        isIdle = false;
+        anim.SetTrigger("isCooking");
+    }
 
-        }
-        else
-        {
-            //Starts running animation
-            anim.SetBool("isRunning", true);
+    public void Cleaning()
+    {
+        isIdle = false;
+        anim.SetTrigger("isCleaning");
+    }
 
-            //Makes new idle direction with the run worth (Hard to explain <:) )
-            lastMoveDirection = rb.linearVelocity;
-        }
+    public void StopInteract()
+    {
+        isIdle = true;
     }
 
 
