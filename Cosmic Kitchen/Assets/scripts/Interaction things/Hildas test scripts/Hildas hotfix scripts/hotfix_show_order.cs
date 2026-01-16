@@ -32,10 +32,10 @@ public class hotfix_show_order : MonoBehaviour
 
     public void hideAway()
     {
-        GetComponent<SpriteRenderer>().sortingOrder = -10;
+        GetComponent<SpriteRenderer>().sortingOrder = -2;
     }
     public void show()
     {
-        GetComponent<SpriteRenderer>().sortingOrder = 10;
+        GetComponent<SpriteRenderer>().sortingOrder = 2;
     }
 }

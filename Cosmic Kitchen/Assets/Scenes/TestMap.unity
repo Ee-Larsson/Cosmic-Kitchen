@@ -1082,7 +1082,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.04, y: 0.86}
+  m_Size: {x: 0.04, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &411697978
 MonoBehaviour:
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad66db8b2b746e446b0bbb8c1ed8c344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActionScript
-  InteractionSymbol: {fileID: 0}
+  InteractionSymbol: {fileID: 1493307645}
 --- !u!114 &411697979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1956,7 +1956,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.04, y: 0.86}
+  m_Size: {x: 0.04, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &658762146
 MonoBehaviour:
@@ -1970,7 +1970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad66db8b2b746e446b0bbb8c1ed8c344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActionScript
-  InteractionSymbol: {fileID: 0}
+  InteractionSymbol: {fileID: 1833908641}
 --- !u!114 &658762147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3268,7 +3268,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.04, y: 0.86}
+  m_Size: {x: 0.04, y: 1}
   m_EdgeRadius: 0
 --- !u!114 &1301592144
 MonoBehaviour:
@@ -3282,7 +3282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad66db8b2b746e446b0bbb8c1ed8c344, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ActionScript
-  InteractionSymbol: {fileID: 0}
+  InteractionSymbol: {fileID: 1305448236}
 --- !u!114 &1301592145
 MonoBehaviour:
   m_ObjectHideFlags: 0
