@@ -9,7 +9,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
     void Start()
     {
         System.Random rand = new System.Random();
-        float x = rand.Next(2, 20);
+        float x = rand.Next(2, 10);
         returnTime = x;
     }
     void Update()
