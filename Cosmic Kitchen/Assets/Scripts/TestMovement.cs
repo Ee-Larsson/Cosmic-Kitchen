@@ -18,6 +18,8 @@ public class TestMovement : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
 
         anim = GetComponent<Animator>();
+
+        isIdle = true;
     }
 
     // Update is called once per frame
@@ -75,6 +77,13 @@ public class TestMovement : MonoBehaviour
         //Has to put in dish, and animate it too for it to work)
         isIdle = false;
         anim.SetTrigger("isCleaning");
+    }
+
+    public void Cutting()
+    {
+        //Has to put in cuttingboard, and animate it too for it to work)
+        isIdle = false;
+        anim.SetTrigger("isCutting");
     }
 
     public void StopInteract()

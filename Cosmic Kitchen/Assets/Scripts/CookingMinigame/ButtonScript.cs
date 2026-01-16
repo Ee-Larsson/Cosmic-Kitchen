@@ -6,28 +6,44 @@ using UnityEngine.UI;
 
 public class ButtonScript : MonoBehaviour
 {
-    public Image BAM;
+    public GameObject BAM;
+    public GameObject fade;
+
+    Collider2D col;
+    Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        BAM.enabled = false;
+        BAM.SetActive(false);
+        fade.SetActive(false);
+
+        col = GetComponent<Collider2D>();
+        rb = GetComponent<Rigidbody2D>();
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown()
     {
-        if (EventSystem.current.IsPointerOverGameObject())
-        {
-            BAM.enabled = true;
-        }
-        else
-        {
-            BAM.enabled = false;
-        }
-
+        fade.SetActive(true);
+        //fade.GetComponent<Animator>().Play("FadeAnim");
+        
     }
 
+    public void ChangeScene()
+    {
+        print("YES!");
+        //SceneManager.LoadScene("TestMap");
+    }
+
+    private void OnMouseOver()
+    {
+        BAM.SetActive(true);
+    }
+
+    private void OnMouseExit()
+    {
+        BAM.SetActive(false);
+    }
 }
 

@@ -181,7 +181,7 @@ AnimationClip:
   - time: 3
     functionName: StopInteract
     data: 
-    objectReferenceParameter: {fileID: 11500000, guid: 1932558c8650a234594db44a76f63159, type: 3}
+    objectReferenceParameter: {fileID: 11500000, guid: 728c82931b20cc64b90e3b57f435fb48, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
