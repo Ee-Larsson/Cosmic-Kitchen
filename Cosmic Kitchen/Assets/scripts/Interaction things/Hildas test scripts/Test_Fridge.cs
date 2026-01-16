@@ -33,6 +33,7 @@ public class Test_Fridge : MonoBehaviour
             {
                 gameObject.GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().AddFood(meat);
                 gameObject.transform.Find("fridge inside").GetComponent<SpriteRenderer>().sortingOrder = -3;
+                Debug.Log("did it");
             }
         }
         if (gameObject.transform.Find("fridge inside").GetComponent<SpriteRenderer>().sortingOrder == 3)

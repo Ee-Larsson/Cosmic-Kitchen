@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.Scripts
-{
     public class Food
     {
         protected string name;
@@ -28,4 +26,4 @@ namespace Assets.Scripts
             return (spriteIndex);
         }
     }
-}
+

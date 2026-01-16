@@ -50,7 +50,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
 
     public bool ReturnIfIsActive()
     {
-        return true;
+        return isActive;
     }
 
     public void Activate()

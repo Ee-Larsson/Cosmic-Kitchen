@@ -6,7 +6,7 @@ using UnityEngine;
 public class Holding : MonoBehaviour // on players and places that should only hold one food like counters and stuff
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    Food holding = null;
+    [SerializeField] Food holding;
     public Food ReturnHolding()
     {
         return holding;
@@ -16,7 +16,7 @@ public class Holding : MonoBehaviour // on players and places that should only h
         if (holding == null)
         {
             holding = change;
-            
+            Debug.Log(change);
             return true;
         }
         else
