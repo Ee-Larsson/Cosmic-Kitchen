@@ -1,5 +1,4 @@
-﻿using Microsoft.Unity.VisualStudio.Editor;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -92,7 +91,7 @@ namespace Assets.Scripts.Food_related
         protected Food GetProperMeals()
         {
 
-            int x = rand.Next(0, properMeals.Count);
+            int x = rand.Next(properMeals.Count);
 
             print(x);
 

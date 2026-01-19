@@ -171,7 +171,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: stove Variant
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1952106242679289144, guid: 3bfee779f276c10499302c6d6f1bced4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -228,7 +229,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1818294543804463130, guid: 93d5028e5d86a9448a92e506dbe7856e, type: 3}
+    - {fileID: 1566665541523098225, guid: 93d5028e5d86a9448a92e506dbe7856e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -580,24 +583,6 @@ MonoBehaviour:
   - {fileID: 6340132955631055367, guid: 5f926717d563fdc48bc403a2150ecaa7, type: 3}
   - {fileID: -5083934304239410962, guid: 07fa7fcdacc990f469a2bcd80dd02a5e, type: 3}
   - {fileID: 5530279296625550608, guid: 41765f82126ce2f4da68e6583bd30047, type: 3}
---- !u!114 &594927062
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 594927054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8a4cc9f7d42f484da2b17df89003f5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Ingridents
-  image: {fileID: 3626916397498700004, guid: 2111cc3be6630ba47b876ea0ec3ffcfe, type: 3}
-  spriteList:
-  - {fileID: -7144902903348530126, guid: 2111cc3be6630ba47b876ea0ec3ffcfe, type: 3}
-  - {fileID: -7338673680007348456, guid: 4a0c7be9669996b4681e6e5da8e37d32, type: 3}
-  - {fileID: 8868069851292300268, guid: 431f2dd82e82cde4cae817abf3d66de3, type: 3}
-  - {fileID: -1683694511948070823, guid: 9d7f5adb855eedc4288f3d765a69198e, type: 3}
 --- !u!114 &594927063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,6 +595,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19791d284c261ae47b91fc7ef78b833c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Orders
+  image: {fileID: 3626916397498700004, guid: 9d7f5adb855eedc4288f3d765a69198e, type: 3}
+  spriteList: []
   player: {fileID: 563603144}
 --- !u!1 &606511528
 GameObject:
@@ -622,7 +609,6 @@ GameObject:
   - component: {fileID: 606511529}
   - component: {fileID: 606511532}
   - component: {fileID: 606511531}
-  - component: {fileID: 606511530}
   m_Layer: 0
   m_Name: "Glitter mj\xF6l (3)"
   m_TagString: Untagged
@@ -645,24 +631,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 563603145}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &606511530
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606511528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8a4cc9f7d42f484da2b17df89003f5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Ingridents
-  image: {fileID: 3626916397498700004, guid: 9d7f5adb855eedc4288f3d765a69198e, type: 3}
-  spriteList:
-  - {fileID: -7144902903348530126, guid: 2111cc3be6630ba47b876ea0ec3ffcfe, type: 3}
-  - {fileID: -7338673680007348456, guid: 4a0c7be9669996b4681e6e5da8e37d32, type: 3}
-  - {fileID: 8868069851292300268, guid: 431f2dd82e82cde4cae817abf3d66de3, type: 3}
-  - {fileID: -1683694511948070823, guid: 9d7f5adb855eedc4288f3d765a69198e, type: 3}
 --- !u!114 &606511531
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -948,9 +916,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 594927063}
-    - targetCorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 594927062}
     - targetCorrespondingSourceObject: {fileID: 7413754908359847045, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 594927061}

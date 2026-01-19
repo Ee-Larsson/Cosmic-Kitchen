@@ -1,7 +1,6 @@
 using Assets.Scripts;
 using System;
 using System.Collections.Generic;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class NPC_interaction : MonoBehaviour
