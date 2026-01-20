@@ -136,15 +136,15 @@ public class Orders : Meals
         while(fruitOrder.GetName() == null && mealOrder.GetName() == null && miscOrder.GetName() == null)
         {
             int randomFruit = rand.Next(1, 21);
-            Debug.Log(randomFruit);
+            Debug.Log(randomFruit + " random fruit");
 
 
             int randomMeal = rand.Next(1, 7);
-            Debug.Log(randomMeal);
+            Debug.Log(randomMeal + " random Meal");
 
 
             int randomMisc = rand.Next(1, 9);
-            Debug.Log(randomMisc);
+            Debug.Log(randomMisc + " random Misc");
 
 
             if (randomFruit <= 1)
