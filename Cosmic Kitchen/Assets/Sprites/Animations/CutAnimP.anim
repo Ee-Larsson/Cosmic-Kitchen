@@ -182,7 +182,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 3.0833333
-    functionName: StopInteract
+    functionName: StopAnimationCut
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 728c82931b20cc64b90e3b57f435fb48, type: 3}
     floatParameter: 0

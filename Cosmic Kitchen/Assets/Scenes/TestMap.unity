@@ -475,6 +475,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: cuttingboard Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1432566425010986397, guid: 2267ae8d57528324ba07f149f8d5717a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 465716505}
+    - target: {fileID: 1432566425010986397, guid: 2267ae8d57528324ba07f149f8d5717a, type: 3}
+      propertyPath: cuttingBoard
+      value: 
+      objectReference: {fileID: 404859434}
     - target: {fileID: 2027311936042797548, guid: 2267ae8d57528324ba07f149f8d5717a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.34
@@ -545,6 +553,14 @@ PrefabInstance:
       propertyPath: speed
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 930046922346284973, guid: 327b0c083b215364e86cf43b7a0c2576, type: 3}
+      propertyPath: stove
+      value: 
+      objectReference: {fileID: 260922481}
+    - target: {fileID: 930046922346284973, guid: 327b0c083b215364e86cf43b7a0c2576, type: 3}
+      propertyPath: cuttingboard
+      value: 
+      objectReference: {fileID: 1785143197}
     - target: {fileID: 1202026235161449998, guid: 327b0c083b215364e86cf43b7a0c2576, type: 3}
       propertyPath: m_LocalScale.z
       value: 0
@@ -924,6 +940,7 @@ GameObject:
   - component: {fileID: 404859432}
   - component: {fileID: 404859431}
   - component: {fileID: 404859433}
+  - component: {fileID: 404859434}
   m_Layer: 0
   m_Name: "SK\xE4rbr\xE4da_0"
   m_TagString: Untagged
@@ -1026,6 +1043,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &404859434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404859430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8080ce6ed172b243823f20893fce4a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CutScript
+  anim: {fileID: 404859433}
 --- !u!1 &411697975
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,6 +1755,14 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6680171341342534732, guid: 893739c15cde9d84bb2f1fc9a8b7bf5b, type: 3}
+      propertyPath: disk
+      value: 
+      objectReference: {fileID: 1129671461}
+    - target: {fileID: 6680171341342534732, guid: 893739c15cde9d84bb2f1fc9a8b7bf5b, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 465716505}
     m_RemovedComponents:
     - {fileID: 5796591953436718052, guid: 893739c15cde9d84bb2f1fc9a8b7bf5b, type: 3}
     m_RemovedGameObjects: []
@@ -4234,6 +4272,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1246083317}
   m_SourcePrefab: {fileID: 100100000, guid: ef6c9e5d7a6223d428ea5d471ab01cdc, type: 3}
+--- !u!114 &1785143197 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1432566425010986397, guid: 2267ae8d57528324ba07f149f8d5717a, type: 3}
+  m_PrefabInstance: {fileID: 285577877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 435924dc806e5c94ca02f9593eb65691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1785988561
 GameObject:
   m_ObjectHideFlags: 0

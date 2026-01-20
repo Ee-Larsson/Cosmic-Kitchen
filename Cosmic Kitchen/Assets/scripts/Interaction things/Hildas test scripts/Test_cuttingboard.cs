@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class Test_cuttingboard : MonoBehaviour
 {
+
+    public TestMovement player;
+    public CutScript cuttingBoard;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,7 +18,13 @@ public class Test_cuttingboard : MonoBehaviour
         if (gameObject.GetComponent<Holding>().ReturnHolding().GetSpriteIndex() == 1)
         {
             gameObject.GetComponent<Holding>().PlaceFood();
-            gameObject.GetComponent<Holding>().AddFood(new Veggie("cut marstato", false, 4));
+            player.Cutting();
+            cuttingBoard.BoardCutting();
         }
+    }
+
+    public void StopInteract()
+    {
+        gameObject.GetComponent<Holding>().AddFood(new Veggie("cut marstato", false, 4));
     }
 }

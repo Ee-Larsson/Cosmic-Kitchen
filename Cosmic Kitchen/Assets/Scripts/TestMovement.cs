@@ -11,6 +11,7 @@ public class TestMovement : MonoBehaviour
 
     //Adds actions to stop animation;
     public Test_stove1 stove;
+    public Test_cuttingboard cuttingboard;
 
 
     //Keeps an idle animation with each direction :)
@@ -95,12 +96,9 @@ public class TestMovement : MonoBehaviour
         stove.StopInteract();
         isIdle = true;
     }
-    public void StopAnimationDish()
-    {
-        isIdle = true;
-    }
     public void StopAnimationCut()
     {
+        cuttingboard.StopInteract();
         isIdle = true;
     }
 
