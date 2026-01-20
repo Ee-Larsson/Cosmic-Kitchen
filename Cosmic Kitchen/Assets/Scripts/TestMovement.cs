@@ -9,6 +9,10 @@ public class TestMovement : MonoBehaviour
     bool isRunning;
     bool isIdle;
 
+    //Adds actions to stop animation;
+    public Test_stove1 stove;
+
+
     //Keeps an idle animation with each direction :)
     Vector2 lastMoveDirection;
 
@@ -86,7 +90,16 @@ public class TestMovement : MonoBehaviour
         anim.SetTrigger("isCutting");
     }
 
-    public void StopInteract()
+    public void StopAnimationCook()
+    {
+        stove.StopInteract();
+        isIdle = true;
+    }
+    public void StopAnimationDish()
+    {
+        isIdle = true;
+    }
+    public void StopAnimationCut()
     {
         isIdle = true;
     }

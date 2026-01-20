@@ -7,11 +7,12 @@ public class Test_stove1 : MonoBehaviour
     Food holding;
     public TestMovement player;
 
-    bool isAnimationDone;
+    int foodNumber; //To check in StopInteract() Which food is supposed to appear;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        isAnimationDone = false;
+        
     }
 
     // Update is called once per frame
@@ -20,13 +21,18 @@ public class Test_stove1 : MonoBehaviour
         holding = gameObject.GetComponent<Holding>().ReturnHolding();
         if (holding.GetSpriteIndex() == 2) //egg
         {
-            MakingOmelette();
+            foodNumber = 1;
+            gameObject.GetComponent<Holding>().PlaceFood();
+            player.Cooking();
 
         }
         else if (holding.GetSpriteIndex() == 0) //meat
         {
+            foodNumber = 2;
             gameObject.GetComponent<Holding>().PlaceFood();
-            gameObject.GetComponent<Holding>().AddFood(new Misc("Steak", true, false, 10));
+            player.Cooking();
+
+
         }
         else if (holding.GetSpriteIndex() == 3) //flour
         {
@@ -34,9 +40,11 @@ public class Test_stove1 : MonoBehaviour
             {
                 if (gameObject.GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().ReturnHolding().GetSpriteIndex() == 2 && Input.GetKeyDown(KeyCode.E)) //if player is holding an egg and is pressing E
                 {
+                    foodNumber = 3;
                     gameObject.GetComponent<Holding>().PlaceFood();
-                    gameObject.GetComponent<Holding>().AddFood(new ProperFood("Pancakes", true, 11, new Misc("Pegg", false, false, 2), new Misc("Flour", false, true, 3), null, null));
+                    //gameObject.GetComponent<Holding>().AddFood(new ProperFood("Pancakes", true, 11, new Misc("Pegg", false, false, 2), new Misc("Flour", false, true, 3), null, null));
                     gameObject.GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().PlaceFood();
+                    player.Cooking();
                 }
             }
         }
@@ -46,47 +54,42 @@ public class Test_stove1 : MonoBehaviour
             {
                 if (gameObject.GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().ReturnHolding().GetSpriteIndex() == 3 && Input.GetKeyDown(KeyCode.E)) //if player is holding an flour and is pressing E
                 {
+                    foodNumber = 3;
                     gameObject.GetComponent<Holding>().PlaceFood();
-                    gameObject.GetComponent<Holding>().AddFood(new ProperFood("Pancakes", true, 11, new Misc("Pegg", false, false, 2), new Misc("Flour", false, true, 3), null, null));
+                    //gameObject.GetComponent<Holding>().AddFood(new ProperFood("Pancakes", true, 11, new Misc("Pegg", false, false, 2), new Misc("Flour", false, true, 3), null, null));
                     gameObject.GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().PlaceFood(); //remove the food the player is holding
+                    player.Cooking();
                 }
             }
         }
         else if (holding.GetSpriteIndex() == 4) //cut potato
         {
             gameObject.GetComponent<Holding>().PlaceFood();
-            gameObject.GetComponent<Holding>().AddFood(new Misc("Fries", true, true, 12));
+            player.Cooking();
+
         }
     }
 
     public void StopInteract()
     {
-        isAnimationDone = true;
-    }
 
-
-    void MakingOmelette()
-    {
-        gameObject.GetComponent<Holding>().PlaceFood();
-        player.Cooking();
-        if (isAnimationDone)
+        if (foodNumber == 1) //Omelette
         {
             gameObject.GetComponent<Holding>().AddFood(new Misc("Omelette", true, false, 13));
-            player.StopInteract();
-            print("RETURN THIS");
-        } 
-    }
-    void MakingSteak()
-    {
-
-    }
-    void MakingPancakes()
-    {
-
-    }
-    void MakingFries()
-    {
-
+   ;
+        }
+        else if(foodNumber == 2) //Steak
+        {
+            gameObject.GetComponent<Holding>().AddFood(new Misc("Steak", true, false, 10));
+        }
+        else if(foodNumber == 3) //Pancakes
+        {
+            gameObject.GetComponent<Holding>().AddFood(new ProperFood("Pancakes", true, 11, new Misc("Pegg", false, false, 2), new Misc("Flour", false, true, 3), null, null));
+        }
+        else if(foodNumber == 4) //Fries
+        {
+            gameObject.GetComponent<Holding>().AddFood(new Misc("Fries", true, true, 12));
+        }
     }
 
 }
