@@ -24,7 +24,6 @@ public class what_food : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sortingOrder = 1;
             gameObject.GetComponent<SpriteRenderer>().sprite = sprites[food.GetSpriteIndex()];
-            Debug.Log("has a foods");
         }
     }
 }

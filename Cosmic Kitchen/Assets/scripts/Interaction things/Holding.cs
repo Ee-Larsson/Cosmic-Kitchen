@@ -16,7 +16,6 @@ public class Holding : MonoBehaviour // on players and places that should only h
         if (holding == null)
         {
             holding = change;
-            Debug.Log(change);
             return true;
         }
         else

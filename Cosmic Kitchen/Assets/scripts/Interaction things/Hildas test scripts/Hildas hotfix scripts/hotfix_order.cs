@@ -21,7 +21,6 @@ public class hotfix_order : MonoBehaviour
         orders.Add(steak);
         System.Random rand = new System.Random();
         x = rand.Next(0, orders.Count);
-        Debug.Log(x);
     }
 
     // Update is called once per frame
@@ -38,6 +37,5 @@ public class hotfix_order : MonoBehaviour
     {
         System.Random rand = new System.Random();
         x = rand.Next(0, orders.Count);
-        Debug.Log(x);
     }
 }
