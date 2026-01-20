@@ -81,19 +81,19 @@ namespace Assets.Scripts.Food_related
         }
 
 
-        //protected Food GetFruit()
-       // {
+      //protected Food GetFruit()
+      //  {
 
-        //    int x = rand.Next(0, Fruits.Count);
+      //      int x = rand.Next(0, Fruits.Count);
 
-     //       return (Fruits[x]);
+      //      return (Fruits[x]);
       //  }
         protected Food GetProperMeals()
         {
 
-            int x = rand.Next(properMeals.Count);
+            int x = rand.Next(0, properMeals.Count);
 
-            print(x);
+            print(x + " Get proper meals " + properMeals.Count);
 
             return (properMeals[x]);
         }
@@ -102,6 +102,8 @@ namespace Assets.Scripts.Food_related
         {
 
             int x = rand.Next(0, general.Count);
+
+            print(x + " Get misc food");
 
             return (general[x]);
         }
