@@ -1,15 +1,17 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class hotfix_npc_Interaction : MonoBehaviour
 {
     
     bool isActive = false;
     float returnTime;
+    float timeItTookForOrder = 0f;
+    [SerializeField] float desirableTimeFrame;
 
     void Start()
     {
-        System.Random rand = new System.Random();
-        float x = rand.Next(2, 10);
+        float x = Random.Range(2f, 10f);
         returnTime = x;
     }
     void Update()
@@ -39,8 +41,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
             if (returnTime <= 0)
             {
                 isActive = true;
-                System.Random rand = new System.Random();
-                float x = rand.Next(2, 20);
+                float x = Random.Range(2f, 30f);
                 returnTime = x;
                 GetComponent<hotfix_order>().RandomizeOrder();
             }
@@ -56,6 +57,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
     public void Activate()
     {
         isActive = true;
+        timeItTookForOrder = 0;
     }
     public void DeActivate()
     {
