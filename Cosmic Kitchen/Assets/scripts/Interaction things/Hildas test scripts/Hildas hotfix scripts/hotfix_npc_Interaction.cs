@@ -7,6 +7,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
     bool isActive = false;
     float returnTime;
     float timeItTookForOrder = 0f;
+    [SerializeField] int score = 0;
     [SerializeField] float desirableTimeFrame;
 
     void Start()
@@ -22,7 +23,19 @@ public class hotfix_npc_Interaction : MonoBehaviour
             {
                 if (isActive == true)
                 {
-                    GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().PlaceFood();
+                    if (GetComponent<hotfix_order>().ReturnOrder().GetSpriteIndex() == 11) //pancake
+                    {
+                        score += 100;
+                    }
+                    else if (GetComponent<hotfix_order>().ReturnOrder().GetSpriteIndex() == 12) // pomefritas
+                    {
+                        score += 75;
+                    }
+                    else
+                    {
+                        score += 50;
+                    }
+                        GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().PlaceFood();
                     isActive = false;
                 }
             }
@@ -62,5 +75,9 @@ public class hotfix_npc_Interaction : MonoBehaviour
     public void DeActivate()
     {
         isActive = false;
+    }
+    public int ReturnScore()
+    {
+        return score;
     }
 }
