@@ -17,6 +17,8 @@ public class hotfix_npc_Interaction : MonoBehaviour
     }
     void Update()
     {
+
+
         if (GetComponent<ActionScript>().ReturnIfPlayerIsColiding() == true && Input.GetKeyDown(KeyCode.E))
         {
             if (GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().ReturnHolding().GetSpriteIndex() == GetComponent<hotfix_order>().ReturnOrder().GetSpriteIndex())
@@ -79,5 +81,10 @@ public class hotfix_npc_Interaction : MonoBehaviour
     public int ReturnScore()
     {
         return score;
+    }
+
+    public void ScoreRemoval()
+    {
+        score = 0;
     }
 }
