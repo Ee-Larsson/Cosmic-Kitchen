@@ -17,7 +17,16 @@ public class hotfix_npc_Interaction : MonoBehaviour
     }
     void Update()
     {
+        if(timeItTookForOrder < 30)
+        {
+            timeItTookForOrder += Time.deltaTime;
+        }
 
+        if(timeItTookForOrder >= 30)
+        {
+            Debug.Log("YOU'RE TOO FOKKING SLOW!");
+            isActive = false;
+        }
 
         if (GetComponent<ActionScript>().ReturnIfPlayerIsColiding() == true && Input.GetKeyDown(KeyCode.E))
         {
@@ -27,15 +36,49 @@ public class hotfix_npc_Interaction : MonoBehaviour
                 {
                     if (GetComponent<hotfix_order>().ReturnOrder().GetSpriteIndex() == 11) //pancake
                     {
-                        score += 100;
+                        if(timeItTookForOrder > 20)
+                        {
+                            score += 100;
+                        }
+                        else if(timeItTookForOrder > 10)
+                        {
+                            score += 75;
+                        }
+                        else
+                        {
+                            score += 50;
+                        }
+                        
                     }
                     else if (GetComponent<hotfix_order>().ReturnOrder().GetSpriteIndex() == 12) // pomefritas
                     {
-                        score += 75;
+                        if (timeItTookForOrder > 20)
+                        {
+                            score += 80;
+                        }
+                        else if (timeItTookForOrder > 10)
+                        {
+                            score += 60;
+                        }
+                        else
+                        {
+                            score += 40;
+                        }
                     }
                     else
                     {
-                        score += 50;
+                        if (timeItTookForOrder > 20)
+                        {
+                            score += 60;
+                        }
+                        else if (timeItTookForOrder > 10)
+                        {
+                            score += 45;
+                        }
+                        else
+                        {
+                            score += 30;
+                        }
                     }
                         GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().PlaceFood();
                     isActive = false;
@@ -47,6 +90,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().sortingOrder = 0;
             GetComponentInChildren<hotfix_show_order>().show();
+
         }
         else
         {
@@ -59,6 +103,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
                 float x = Random.Range(2f, 30f);
                 returnTime = x;
                 GetComponent<hotfix_order>().RandomizeOrder();
+                timeItTookForOrder = 0f;
             }
         }
 
