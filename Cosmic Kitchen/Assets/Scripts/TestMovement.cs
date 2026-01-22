@@ -98,7 +98,7 @@ public class TestMovement : MonoBehaviour
     }
     public void StopAnimationCut()
     {
-        cuttingboard.StopInteract();
+        cuttingboard.StopInteract1();
         isIdle = true;
     }
 

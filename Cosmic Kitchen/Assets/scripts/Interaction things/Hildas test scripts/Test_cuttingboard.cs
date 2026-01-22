@@ -23,8 +23,9 @@ public class Test_cuttingboard : MonoBehaviour
         }
     }
 
-    public void StopInteract()
+    public void StopInteract1()
     {
+        print("Hello?");
         gameObject.GetComponent<Holding>().AddFood(new Veggie("cut marstato", false, 4));
     }
 }
