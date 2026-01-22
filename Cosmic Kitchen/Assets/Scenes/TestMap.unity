@@ -551,7 +551,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 930046922346284973, guid: 327b0c083b215364e86cf43b7a0c2576, type: 3}
       propertyPath: speed
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 930046922346284973, guid: 327b0c083b215364e86cf43b7a0c2576, type: 3}
       propertyPath: stove
@@ -1173,6 +1173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f848cd2d2a6bf0847a78135ee375c273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::hotfix_npc_Interaction
+  desirableTimeFrame: 0
 --- !u!212 &411697981
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2066,6 +2067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f848cd2d2a6bf0847a78135ee375c273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::hotfix_npc_Interaction
+  desirableTimeFrame: 0
 --- !u!212 &658762149
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3489,6 +3491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f848cd2d2a6bf0847a78135ee375c273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::hotfix_npc_Interaction
+  desirableTimeFrame: 0
 --- !u!212 &1301592147
 SpriteRenderer:
   m_ObjectHideFlags: 0
