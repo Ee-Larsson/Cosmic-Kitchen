@@ -64,6 +64,7 @@ public class Test_stove1 : MonoBehaviour
         }
         else if (holding.GetSpriteIndex() == 4) //cut potato
         {
+            foodNumber = 4;
             gameObject.GetComponent<Holding>().PlaceFood();
             player.Cooking();
 
