@@ -25,6 +25,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
         if(timeItTookForOrder >= 30)
         {
             Debug.Log("YOU'RE TOO FOKKING SLOW!");
+            score -= 50;
             isActive = false;
         }
 
