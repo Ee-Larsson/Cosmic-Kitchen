@@ -9,20 +9,22 @@ public class hotfix_npc_Interaction : MonoBehaviour
     float timeItTookForOrder = 0f;
     [SerializeField] int score = 0;
     [SerializeField] float desirableTimeFrame;
+    float leaveTime;
 
     void Start()
     {
         float x = Random.Range(2f, 10f);
         returnTime = x;
+        
     }
     void Update()
     {
-        if(timeItTookForOrder < 30)
+        if(timeItTookForOrder < leaveTime && isActive == true)
         {
             timeItTookForOrder += Time.deltaTime;
         }
 
-        if(timeItTookForOrder >= 30)
+        if(timeItTookForOrder >= leaveTime && isActive == true)
         {
             Debug.Log("YOU'RE TOO FOKKING SLOW!");
             score -= 50;
@@ -38,11 +40,11 @@ public class hotfix_npc_Interaction : MonoBehaviour
                 {
                     if (GetComponent<hotfix_order>().ReturnOrder().GetSpriteIndex() == 11) //pancake
                     {
-                        if(timeItTookForOrder > 20)
+                        if(timeItTookForOrder > leaveTime/1.5)
                         {
                             score += 100;
                         }
-                        else if(timeItTookForOrder > 10)
+                        else if(timeItTookForOrder > leaveTime/3)
                         {
                             score += 75;
                         }
@@ -54,11 +56,11 @@ public class hotfix_npc_Interaction : MonoBehaviour
                     }
                     else if (GetComponent<hotfix_order>().ReturnOrder().GetSpriteIndex() == 12) // pomefritas
                     {
-                        if (timeItTookForOrder > 20)
+                        if (timeItTookForOrder > leaveTime / 1.5)
                         {
                             score += 80;
                         }
-                        else if (timeItTookForOrder > 10)
+                        else if (timeItTookForOrder > leaveTime / 3)
                         {
                             score += 60;
                         }
@@ -69,11 +71,11 @@ public class hotfix_npc_Interaction : MonoBehaviour
                     }
                     else
                     {
-                        if (timeItTookForOrder > 20)
+                        if (timeItTookForOrder > leaveTime / 1.5)
                         {
                             score += 60;
                         }
-                        else if (timeItTookForOrder > 10)
+                        else if (timeItTookForOrder > leaveTime / 3)
                         {
                             score += 45;
                         }
@@ -106,6 +108,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
                 returnTime = x;
                 GetComponent<hotfix_order>().RandomizeOrder();
                 timeItTookForOrder = 0f;
+                leaveTime = Random.Range(20f, 40f);
             }
         }
 
