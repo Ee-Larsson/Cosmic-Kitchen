@@ -108,7 +108,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
                 returnTime = x;
                 GetComponent<hotfix_order>().RandomizeOrder();
                 timeItTookForOrder = 0f;
-                leaveTime = Random.Range(20f, 40f);
+                leaveTime = Random.Range(30f, 45f);
             }
         }
 
