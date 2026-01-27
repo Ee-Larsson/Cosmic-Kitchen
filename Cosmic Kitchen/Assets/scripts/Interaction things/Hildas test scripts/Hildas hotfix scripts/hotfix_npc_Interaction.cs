@@ -27,7 +27,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
             Debug.Log("YOU'RE TOO FOKKING SLOW!");
             score -= 50;
             isActive = false;
-            timeItTookForOrder = -200; //score doesn't go into -infinity
+            timeItTookForOrder = -200; //so that score doesn't go into -infinity
         }
 
         if (GetComponent<ActionScript>().ReturnIfPlayerIsColiding() == true && Input.GetKeyDown(KeyCode.E))
