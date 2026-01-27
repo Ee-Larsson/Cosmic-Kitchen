@@ -11,6 +11,7 @@ public class ActionScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") == true)
         {
             InteractionSymbol.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, -5);
+            InteractionSymbol.GetComponent<SpriteRenderer>().sortingOrder = 55;
             Colliding = true;
             CollisionObject = collision.gameObject;
         }
@@ -20,6 +21,7 @@ public class ActionScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") == true)
         {
             InteractionSymbol.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, 10);
+            InteractionSymbol.GetComponent<SpriteRenderer>().sortingOrder = -55;
             Colliding = false;
             CollisionObject = null;
         }
