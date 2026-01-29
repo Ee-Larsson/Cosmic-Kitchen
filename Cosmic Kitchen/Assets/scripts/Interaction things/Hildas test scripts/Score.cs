@@ -27,4 +27,9 @@ public class Score : MonoBehaviour
         }
         scoreBoard.text = "Score: " + score.ToString();
     }
+
+    public int returnScore()
+    {
+        return score;
+    }
 }
