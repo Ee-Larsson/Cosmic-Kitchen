@@ -3,7 +3,7 @@ using UnityEngine.Rendering;
 
 public class hotfix_npc_Interaction : MonoBehaviour
 {
-    
+    public GameObject Bar;
     bool isActive = false;
     float returnTime;
     float timeItTookForOrder = 0f;
@@ -15,6 +15,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
     {
         float x = Random.Range(2f, 10f);
         returnTime = x;
+        Bar.SetActive(false);
         
     }
     void Update()
@@ -29,6 +30,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
         {
             Debug.Log("YOU'RE TOO FOKKING SLOW!");
             score -= 50;
+            Bar.SetActive(false);
             isActive = false;
             timeItTookForOrder = -200; //so that score doesn't go into -infinity
         }
@@ -86,6 +88,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
                         }
                     }
                         GetComponent<ActionScript>().ReturnCollidingObject().GetComponent<Holding>().PlaceFood();
+                    Bar.SetActive(false);
                     isActive = false;
                 }
             }
@@ -110,6 +113,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
                 GetComponent<hotfix_order>().RandomizeOrder();
                 timeItTookForOrder = 0f;
                 leaveTime = Random.Range(30f, 45f);
+                Bar.SetActive(true);
                 GetComponentInChildren<ProgressBar>().SetMaxProgress(leaveTime);
             }
         }
