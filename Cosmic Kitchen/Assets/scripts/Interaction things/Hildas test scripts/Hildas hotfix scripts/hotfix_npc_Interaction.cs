@@ -22,6 +22,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
         if(timeItTookForOrder < leaveTime && isActive == true)
         {
             timeItTookForOrder += Time.deltaTime;
+            GetComponentInChildren<ProgressBar>().setProgress(leaveTime-timeItTookForOrder);
         }
 
         if(timeItTookForOrder >= leaveTime && isActive == true)
@@ -109,6 +110,7 @@ public class hotfix_npc_Interaction : MonoBehaviour
                 GetComponent<hotfix_order>().RandomizeOrder();
                 timeItTookForOrder = 0f;
                 leaveTime = Random.Range(30f, 45f);
+                GetComponentInChildren<ProgressBar>().SetMaxProgress(leaveTime);
             }
         }
 

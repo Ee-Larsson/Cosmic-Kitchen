@@ -7,7 +7,7 @@ public class ProgressBar : MonoBehaviour
     public Gradient gradient;
     public Image fill;
     
-    public void SetMaxProgress(int progress)
+    public void SetMaxProgress(float progress)
     {
         slider.maxValue = progress;
         slider.value = 0;
@@ -15,7 +15,7 @@ public class ProgressBar : MonoBehaviour
         fill.color = gradient.Evaluate(0);
     }
 
-    public void setProgress(int progress)
+    public void setProgress(float progress)
     {
         slider.value = progress;
 
