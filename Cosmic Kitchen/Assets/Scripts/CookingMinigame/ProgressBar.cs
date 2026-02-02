@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,5 +21,10 @@ public class ProgressBar : MonoBehaviour
         slider.value = progress;
 
         fill.color = gradient.Evaluate(slider.normalizedValue);
+    }
+
+    internal void isActiveAndEnabled(bool v)
+    {
+        throw new NotImplementedException();
     }
 }
